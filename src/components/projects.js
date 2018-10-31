@@ -42,7 +42,7 @@ class Projects extends Component {
                     </Card>
                      {/* Project 3 */}
                      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover'}}>Map-Attack</CardTitle>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover'}}>Map-Attack</CardTitle>
                             <CardText>Map-Attack is a game written in pure JavaScript. The game uses the Fetch/Google Maps and Rest Countries APIs all working in unison. Map-Attack generates questions based on the random country chosen from the Rest Countries API. The user has three chances to save the world. If the user destroys three countries by choosing the wrong answer, the game is over. If the user chooses five countries correctly, he/she saves the world.</CardText>
                             <CardActions border>
                                 <Button colored>Github</Button>
@@ -64,15 +64,88 @@ class Projects extends Component {
                                 <IconButton name="share" />
                             </CardMenu>
                     </Card>
+                    {/* Project 5 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/weather.png) center / cover'}}>Local Weather</CardTitle>
+                            <CardText>Weather app using the OpenWeather API and geolocation displaying user's local weather and time based on location.</CardText>
+                            <CardActions border>
+                                <Button colored>Github</Button>
+                                <Button colored>LiveDemo</Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                    </Card>
+                    {/* Project 6 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}>Bible Verses</CardTitle>
+                            <CardText>jQuery app using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
+                            <CardActions border>
+                                <Button colored>Github</Button>
+                                <Button colored>LiveDemo</Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                    </Card>
                 </div>
             )
         } else if (this.state.activeTab === 2) {
             return (
-                <div><h1>This is Rails</h1></div>
+                <div className="projects-grid">
+                    {/* Project 7 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/star-shipped.png) center / cover'}}>Star-Shipped</CardTitle>
+                            <CardText>Shipped app written in Rails allowing the user to create ships, ship crates and create assignments to link ships to orders.</CardText>
+                            <CardActions border>
+                                <Button colored>Github</Button>
+                                <Button colored>LiveDemo</Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                    </Card>
+                    {/* Project 6 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/doggie-bloggie.png) center / cover'}}>Doggie-Bloggie</CardTitle>
+                            <CardText>Full Rails CRUD app built for dogs to gossip about their owners.</CardText>
+                            <CardActions border>
+                                <Button colored>Github</Button>
+                                <Button colored>LiveDemo</Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                    </Card>
+                </div>
             )
         } else if (this.state.activeTab === 3) {
             return (
-                <div><h1>This is Sinatra</h1></div>
+                <div className="projects-grid">
+                {/* Project 7 */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/ruby-flooring.png) center / cover'}}>Ruby Flooring</CardTitle>
+                        <CardText>Mock business website written in Sinatra. Has a Twitter-like character count feature written in JavaScript.</CardText>
+                        <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                </Card>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/coder-bytes.png) center / cover'}}>Coder-Bytes</CardTitle>
+                        <CardText>Full CRUD site written in Sinatra allowing users to setup user accounts, profiles, posts and comments.</CardText>
+                        <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>LiveDemo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                </Card>
+                </div>
             )
         }
     }
