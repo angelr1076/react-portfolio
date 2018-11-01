@@ -1,1 +1,1 @@
-This is my first attempt at fleshing out a full React app. This is redesigned from a HUGO port I built months ago (angelroddy.com) and rebuilt in React. The site is hosted by Firebase with an AWS domain name uses AWS route 53 domain management.
+This is my first attempt at fleshing out a full React app. This is redesigned from a HUGO port I built months ago (angelroddy.com) and rebuilt in React. The site is hosted by Firebase and uses AWS route 53 domain management.
