@@ -33,6 +33,12 @@
   padding: 2em;
 }
 
+/* About Me */
+
+.about-grid img {
+  margin-left: 15%;
+}
+
 /* Contact Page */
 .contact-body {
   margin: auto;

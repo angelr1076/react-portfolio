@@ -16,8 +16,8 @@ class Projects extends Component {
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540984748/react-website.png) center / cover'}}>My Portfolio Site</CardTitle>
                             <CardText>Portfolio site built in ReactJS showcasing all projects written in React, JavaScript, Rails and Sinatra.</CardText>
                             <CardActions border>
-                                <Button colored>Github</Button>
-                                <Button colored>LiveDemo</Button>
+                                <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/react-portfolio">Github</a></Button>
+                                <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/react-portfolio/">Live Demo</a></Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
@@ -33,8 +33,8 @@ class Projects extends Component {
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985058/word-spin.png) center / cover'}}>Word-Spin</CardTitle>
                             <CardText>Word-Spin game written in pure JavaScript that generates random JavaScript terminology that the user has 6 chances to guess.</CardText>
                             <CardActions border>
-                                <Button colored>Github</Button>
-                                <Button colored>LiveDemo</Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/word-spin">Github</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/word-spin/">Live Demo</a></Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
@@ -45,8 +45,8 @@ class Projects extends Component {
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover'}}>Map-Attack</CardTitle>
                             <CardText>Map-Attack is a game written in pure JavaScript. The game uses the Fetch/Google Maps and Rest Countries APIs.</CardText>
                             <CardActions border>
-                                <Button colored>Github</Button>
-                                <Button colored>LiveDemo</Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/">Github</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://map-attack-app.herokuapp.com/">Live Demo</a></Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
@@ -56,9 +56,10 @@ class Projects extends Component {
                      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/mini-arcade.png) center / cover'}}>BRB Arcade</CardTitle>
                             <CardText>Arcade App Using PHASER API written in JavaScript and Rails. There is an option to choose from three games in the arcade.</CardText>
+                            <CardText>Username: guest@gmail.com, Password: guestpass</CardText>
                             <CardActions border>
-                                <Button colored>Github</Button>
-                                <Button colored>LiveDemo</Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/arcade-mini-games">Github</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://brb-arcade.herokuapp.com/">Live Demo</a></Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
@@ -69,8 +70,8 @@ class Projects extends Component {
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/weather.png) center / cover'}}>Local Weather</CardTitle>
                             <CardText>Weather app using the OpenWeather API and geolocation displaying user's local weather and time based on location.</CardText>
                             <CardActions border>
-                                <Button colored>Github</Button>
-                                <Button colored>LiveDemo</Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/weather-js">Github</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/weather-js/">Live Demo</a></Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
@@ -81,8 +82,8 @@ class Projects extends Component {
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}>Bible Verses</CardTitle>
                             <CardText>jQuery app using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
                             <CardActions border>
-                                <Button colored>Github</Button>
-                                <Button colored>LiveDemo</Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/bible-verses-updated">Github</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/bible-verses-updated/#">Live Demo</a></Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
@@ -97,9 +98,10 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/star-shipped.png) center / cover'}}>Star-Shipped</CardTitle>
                             <CardText>Shipped app written in Rails allowing the user to create ships, ship crates and create assignments to link ships to orders.</CardText>
+                            <CardText>Username: guest@gmail.com, Password: guestpass</CardText>
                             <CardActions border>
-                                <Button colored>Github</Button>
-                                <Button colored>LiveDemo</Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/star-shipped">Github</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://star-shipped.herokuapp.com/">Live Demo</a></Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
@@ -109,9 +111,10 @@ class Projects extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/doggie-bloggie.png) center / cover'}}>Doggie-Bloggie</CardTitle>
                             <CardText>Full Rails CRUD app built for dogs to gossip about their owners.</CardText>
+                            <CardText>Username: guest, Password: guestpass</CardText>
                             <CardActions border>
-                                <Button colored>Github</Button>
-                                <Button colored>LiveDemo</Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/ruby-on-rails-crud-blog">Github</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://doggie-bloggie.herokuapp.com/">Live Demo</a></Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />
@@ -127,8 +130,8 @@ class Projects extends Component {
                     <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/ruby-flooring.png) center / cover'}}>Ruby Flooring</CardTitle>
                         <CardText>Mock business website written in Sinatra. Has a Twitter-like character count feature written in JavaScript.</CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>LiveDemo</Button>
+                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/sinatra-business-website">Github</a></Button>
+                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://ruby-flooring.herokuapp.com/">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
@@ -137,9 +140,10 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'white', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/coder-bytes.png) center / cover'}}>Coder-Bytes</CardTitle>
                         <CardText>Full CRUD site written in Sinatra allowing users to setup user accounts, profiles, posts and comments.</CardText>
+                        <CardText>Username: guest, Password: guestpass</CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>LiveDemo</Button>
+                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/coder-bytes-sinatra-crud-blog">Github</a></Button>
+                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://coder-bytes.herokuapp.com/">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />

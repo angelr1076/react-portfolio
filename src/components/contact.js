@@ -14,7 +14,7 @@ class Contact extends Component {
                         style={{ height: '300px'}}
                     />
 
-                    <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Hello! My name's Angel and I'm a web-developer with a passion for front-end design and back-end architecture. I've worked with many technological tools, including: JavaScript, jQuery, Sass, ActiveRecord, Node.js, JSON, Phaser3, Tiled, SQLite3, Ruby, Ruby on Rails, Sinatra, Heroku, Firebase, Hugo, Bootsrap, Materialize, HTML5, CSS3, Git and Github. Contact me if you like my work and would like to hire me. You can either email me at angelr1076@gmail.com or contact me on social media.</p>
+                    <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Web developer with a passion for front-end design and back-end architecture. I've worked with many technological tools, including: JavaScript, jQuery, Sass, ActiveRecord, Node.js, JSON, Phaser3, Tiled, SQLite3, Ruby, Ruby on Rails, Sinatra, Heroku, Firebase, Hugo, Bootsrap, Materialize, HTML5, CSS3, Git and Github. Contact me if you like my work and would like to hire me. You can either email me at angelr1076@gmail.com or contact me on social media.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -22,22 +22,22 @@ class Contact extends Component {
 
                         <div className="contact-list">
                         <List>
-                            {/* <ListItem>
+                            <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-phone-square" aria-hidden="true"/>
-                                123.456.7890
+                                858.232.3288
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
-                                <i className="fa fa-fax" aria-hidden="true"/>
-                                123.456.7890
-                                </ListItemContent>
-                            </ListItem> */}
-                            <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
                                 angelr1076@gmail.com
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
+                                <i className="fa fa-github" aria-hidden="true"/>
+                                <a href="https://github.com/angelr1076" rel="noopener noreferrer" target="_blank">https://github.com/angelr1076</a>
                                 </ListItemContent>
                             </ListItem>
                         </List>
