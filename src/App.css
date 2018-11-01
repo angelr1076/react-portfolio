@@ -43,7 +43,6 @@ a {
 }
 
 /* Resume */
-
 .resume-right-col {
   background: #27221F;
   color: white;
@@ -65,11 +64,6 @@ a {
 }
 
 /* About Me */
-
-.about-grid {
-  background: #27221F;
-  color: white;
-}
 
 .about-grid img {
   margin-left: 15%;
