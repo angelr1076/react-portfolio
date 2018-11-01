@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
 class Resume extends Component {
     render() {
         return (
@@ -27,7 +26,7 @@ class Resume extends Component {
                         <h5>Email</h5>
                         <p>angelr1076@gmail.com</p>
                         <h5>Web</h5>
-                        <p>angelroddy.com</p>
+                        <p><a rel="noopener noreferrer" target="_blank" href="https://www.angelroddy.com">angelroddy.com</a></p>
                         <hr style={{borderTop: '3px solid #83bfb2', width: '50%'}} />
 
                     </Cell>
@@ -71,26 +70,20 @@ class Resume extends Component {
                         <hr style={{borderTop: '3px solid #e22947'}} />
 
                     <h2>Skills</h2>
-                    <Skills 
-                        skill="JavaScript"
-                        progress={60}
-                        />
-                    <Skills 
-                        skill="Ruby"
-                        progress={50}
-                        />
-                    <Skills 
-                        skill="Rails"
-                        progress={70}
-                        />
-                    <Skills 
-                        skill="HTML5"
-                        progress={90}
-                        />
-                    <Skills 
-                        skill="CSS3"
-                        progress={90}
-                        />
+                        <div className="devicons">
+                            <i className="devicon-javascript-plain colored" />
+                            <i className="devicon-jquery-plain-wordmark colored" />
+                            <i className="devicon-react-original colored" />
+                            <i className="devicon-ruby-plain-wordmark colored" />
+                            <i className="devicon-rails-plain-wordmark colored" />
+                            <i className="devicon-bootstrap-plain-wordmark" />
+                            <i className="devicon-html5-plain-wordmark colored" />
+                            <i className="devicon-css3-plain-wordmark colored" />
+                            <i className="devicon-sass-original colored" />
+                            <i className="devicon-visualstudio-plain colored" />
+                            <i className="devicon-heroku-original-wordmark colored" />
+                            <i className="devicon-github-plain-wordmark" />
+                        </div>
                     </Cell>
                 </Grid>
             </div>

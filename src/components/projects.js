@@ -52,19 +52,6 @@ class Projects extends Component {
                                 <IconButton name="share" />
                             </CardMenu>
                     </Card>
-                     {/* Project 4 */}
-                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/mini-arcade.png) center / cover'}}>BRB Arcade</CardTitle>
-                            <CardText>Arcade App Using PHASER API written in JavaScript and Rails. There is an option to choose from three games in the arcade.</CardText>
-                            <CardText>Username: guest@gmail.com, Password: guestpass</CardText>
-                            <CardActions border>
-                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/arcade-mini-games">Github</a></Button>
-                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://brb-arcade.herokuapp.com/">Live Demo</a></Button>
-                            </CardActions>
-                            <CardMenu style={{color: '#fff'}}>
-                                <IconButton name="share" />
-                            </CardMenu>
-                    </Card>
                     {/* Project 5 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/weather.png) center / cover'}}>Local Weather</CardTitle>
@@ -84,6 +71,19 @@ class Projects extends Component {
                             <CardActions border>
                             <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/bible-verses-updated">Github</a></Button>
                             <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/bible-verses-updated/#">Live Demo</a></Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                    </Card>
+                    {/* Project 4 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/mini-arcade.png) center / cover'}}>BRB Arcade</CardTitle>
+                            <CardText>Arcade App Using PHASER API written in JavaScript and Rails. There is an option to choose from three games in the arcade.</CardText>
+                            <CardText>Username: guest@gmail.com, Password: guestpass</CardText>
+                            <CardActions border>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/arcade-mini-games">Github</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://brb-arcade.herokuapp.com/">Live Demo</a></Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
                                 <IconButton name="share" />

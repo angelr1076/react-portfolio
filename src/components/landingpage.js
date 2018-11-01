@@ -12,9 +12,10 @@ class Landing extends Component {
                         alt="avatar-pic"
                         className="avatar-img"
                     />
+                    <hr/>
                     <div className="banner-text">
-                        <h2>Angel Rodriguez</h2>
-                        <h1>Full Stack Web Developer</h1>
+                        <h1>Angel Rodriguez</h1>
+                        <h2>Full Stack Web Developer</h2>
 
                         <hr/>
 
