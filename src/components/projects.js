@@ -340,7 +340,6 @@ class Projects extends Component {
                     <Tab>Rails</Tab>
                     <Tab>Sinatra</Tab>
                 </Tabs>
-
                 <Grid>
                     <Cell col={12}>
                         <div className="content">{this.toggleCategories()}</div>

@@ -7,10 +7,10 @@ class Landing extends Component {
             <div className="landing-body">
                 <Grid className="landing-grid">
                     <Cell col={6}>
-                    <div className="banner-text"></div>
+                    <div className="banner-text">
                         <h1>Angel Rodriguez</h1>
                         <h2>Full Stack Web Developer</h2>
-
+                    </div>
                         <div className="social-links">
                             {/* LinkedIn */}
                             <a href="https://www.linkedin.com/in/angelrodriguezlead/" rel="noopener noreferrer" target="_blank">
@@ -47,8 +47,8 @@ class Landing extends Component {
                             <i className="devicon-github-plain-wordmark" />
                             <i className="devicon-git-plain-wordmark" />
                             <i className="devicon-gitlab-plain-wordmark colored" />
+                            <p className="skills">JavaScript | jQuery | React | Sass | ActiveRecord | Node.js | JSON | Phaser3 | Tiled | SQLite3 | Ruby | Ruby on Rails | Sinatra | Heroku | Firebase | Hugo | Bootsrap | Materialize | HTML5 | CSS3 | Git | Github</p>
                         </div>
-                        <p>JavaScript | jQuery | React | Sass | ActiveRecord | Node.js | JSON | Phaser3 | Tiled | SQLite3| Ruby | Ruby on Rails | Sinatra | Heroku | Firebase | Hugo | Bootsrap | Materialize | HTML5 | CSS3 | Git | Github</p>
                     </Cell>
 
                     <Cell col={6}>
