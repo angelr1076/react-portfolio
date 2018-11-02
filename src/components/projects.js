@@ -19,7 +19,7 @@ class Projects extends Component {
                         <CardText>Portfolio site built in ReactJS showcasing all projects written in React, JavaScript, Rails and Sinatra.</CardText>
                         <CardActions border>
                             <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/react-portfolio">Github</a></Button>
-                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/react-portfolio/">Live Demo</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelroddie.com">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
@@ -174,7 +174,7 @@ class Projects extends Component {
                         <CardText>Portfolio site built in ReactJS showcasing all projects written in React, JavaScript, Rails and Sinatra.</CardText>
                         <CardActions border>
                             <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/react-portfolio">Github</a></Button>
-                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/react-portfolio/">Live Demo</a></Button>
+                            <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelroddie.com">Live Demo</a></Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
