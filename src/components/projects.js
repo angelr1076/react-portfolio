@@ -14,7 +14,7 @@ class Projects extends Component {
                     {/* Project 1 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540984748/react-website.png) center / cover'}}></CardTitle>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1541199159/Screen_Shot_2018-11-02_at_6.51.56_PM.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Portfolio Site</CardText>
                         <CardText>Portfolio site built in ReactJS showcasing all projects written in React, JavaScript, Rails and Sinatra.</CardText>
                         <CardActions border>
@@ -74,7 +74,7 @@ class Projects extends Component {
                     {/* Project 6 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                       <CardTitle style={{color: 'yellow', height: '176px', background: 'url (https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}></CardTitle>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Bible Verses</CardText>
                        <CardText>jQuery app converted to JavaScript using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
                        <CardActions border>
@@ -148,7 +148,7 @@ class Projects extends Component {
                     </Card>
                     </Cell>
                     <Cell col={6}>
-                    <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                         <CardTitle style={{color: 'white', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/coder-bytes.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Coder-Bytes</CardText>
                         <CardText>Full CRUD site written in Sinatra allowing users to setup user accounts, profiles, posts and comments.</CardText>
@@ -168,8 +168,8 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     {/* Project 1 */}
-                    <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540984748/react-website.png) center / cover'}}></CardTitle>
+                    <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1541199159/Screen_Shot_2018-11-02_at_6.51.56_PM.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Portfolio Site</CardText>
                         <CardText>Portfolio site built in ReactJS showcasing all projects written in React, JavaScript, Rails and Sinatra.</CardText>
                         <CardActions border>
@@ -267,7 +267,7 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                     {/* Project  8 */}
-                    <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/star-shipped.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Star-Shipped</CardText>
                         <CardText>Shipped app written in Rails allowing the user to create ships, ship crates and create assignments to link ships to orders.</CardText>
@@ -281,7 +281,7 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                     {/* Project 9 */}
-                    <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/doggie-bloggie.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Doggie-Bloggie</CardText>
                         <CardText>Full Rails CRUD app built for dogs to gossip about their owners.</CardText>
@@ -300,7 +300,7 @@ class Projects extends Component {
             return (
                 <div className="projects-grid">
                 {/* Project 7 */}
-                <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/ruby-flooring.png) center / cover'}}></CardTitle>
                     <CardText style={{color: 'black', fontSize: '20px'}}>Ruby Flooring</CardText>
                     <CardText>Mock business website written in Sinatra. Has a Twitter-like character count feature written in JavaScript.</CardText>
@@ -312,7 +312,7 @@ class Projects extends Component {
                         <IconButton name="share" />
                     </CardMenu>
                 </Card>
-                <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                     <CardTitle style={{color: 'white', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/coder-bytes.png) center / cover'}}></CardTitle>
                     <CardText style={{color: 'black', fontSize: '20px'}}>Coder-Bytes</CardText>
                     <CardText>Full CRUD site written in Sinatra allowing users to setup user accounts, profiles, posts and comments.</CardText>
