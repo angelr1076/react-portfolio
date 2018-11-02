@@ -45,6 +45,8 @@ class Landing extends Component {
                             <i className="devicon-amazonwebservices-plain-wordmark" />
                             <i className="devicon-heroku-original-wordmark colored" />
                             <i className="devicon-github-plain-wordmark" />
+                            <i className="devicon-git-plain-wordmark" />
+                            <i className="devicon-gitlab-plain-wordmark colored" />
                         </div>
                         <p>JavaScript | jQuery | React | Sass | ActiveRecord | Node.js | JSON | Phaser3 | Tiled | SQLite3| Ruby | Ruby on Rails | Sinatra | Heroku | Firebase | Hugo | Bootsrap | Materialize | HTML5 | CSS3 | Git | Github</p>
                     </Cell>
