@@ -13,7 +13,11 @@ function Main({ location }) {
           <TransitionGroup className="transition-group">
             <CSSTransition
               key={location.key}
+<<<<<<< HEAD
               timeout={{ enter: 400, exit: 400 }}
+=======
+              timeout={{ enter: 300, exit: 300 }}
+>>>>>>> 57d1f50325f850237582f824358faec1d4278e3e
               classNames={ 'fade'}
             >
               <section className="route-section">
@@ -36,7 +40,11 @@ function Main({ location }) {
     }
     .fade-enter.fade-enter-active {
         opacity: 1;
+<<<<<<< HEAD
         transition: opacity 400ms ease-in;
+=======
+        transition: opacity 300ms ease-in;
+>>>>>>> 57d1f50325f850237582f824358faec1d4278e3e
     }
     .fade-exit {
         opacity: 1;
@@ -44,7 +52,11 @@ function Main({ location }) {
       
     .fade-exit.fade-exit-active {
         opacity: 0.01;
+<<<<<<< HEAD
         transition: opacity 400ms ease-in;
+=======
+        transition: opacity 300ms ease-in;
+>>>>>>> 57d1f50325f850237582f824358faec1d4278e3e
     }
     
     div.transition-group {
