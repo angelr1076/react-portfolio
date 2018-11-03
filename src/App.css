@@ -124,24 +124,27 @@ a {
   justify-content: center;
   width: 80%;
   height: 650px;
-  background: rgb(172, 166, 166);
-  border-radius: 5px;
-  color: black;
+  background: #a73737;  
+  background: -webkit-linear-gradient(to top, #7a2828, #a73737);  
+  background: linear-gradient(to top, #7a2828, #a73737); 
   margin-bottom: 20px;
 }
 
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
-  color: black;
+  color: rgb(235, 228, 228);
+  letter-spacing: 2px;
 }
 
 .contact-grid p {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
+  color: white;
+  letter-spacing: .5px;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted rgb(121, 109, 109);
   width: 50%;
   margin: auto;
 }
@@ -149,5 +152,7 @@ a {
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
+  color: white;
 }
+
 

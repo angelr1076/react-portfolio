@@ -11,7 +11,7 @@ class Contact extends Component {
                     <img 
                         src="https://res.cloudinary.com/angelrodriguez/image/upload/v1528903608/261905_157517620988095_7963288_n.jpg"
                         alt="avatar"
-                        style={{ height: '300px'}}
+                        style={{ width: '80%', height: 'auto' }}
                     />
 
                     <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Web developer with a passion for front-end design and back-end architecture. I've worked with many tech tools, including: JavaScript, React, jQuery, Sass, AWS,ActiveRecord, Node.js, JSON, Phaser3, Tiled, SQLite3, Ruby, Ruby on Rails, Sinatra, Heroku, Firebase, Hugo, Bootsrap, Materialize, HTML5, CSS3, Git and Github. Contact me if you like my work and would like to hire me. You can either email me at angelr1076@gmail.com or contact me on social media.</p>
@@ -20,22 +20,22 @@ class Contact extends Component {
                         <h2>Contact Me</h2>
                         <hr/>
 
-                        <div className="contact-list">
+                        <div style={{ width: '100%', margin: 'auto' }} className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-phone-square" aria-hidden="true"/>
                                 858.232.3288
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
                                 angelr1076@gmail.com
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-github" aria-hidden="true"/>
                                 <a href="https://github.com/angelr1076" rel="noopener noreferrer" target="_blank">https://github.com/angelr1076</a>
                                 </ListItemContent>
