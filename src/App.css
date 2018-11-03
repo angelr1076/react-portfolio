@@ -18,7 +18,7 @@ body {
 /* Landing Page */
 
 .banner-text h1, h2 {
-  font-size: 50px;
+  font-size: 4em;
   font-weight: bold;
   color: rgb(197, 181, 181);
   text-align: center;
@@ -100,7 +100,6 @@ a {
 }
 
 /* Resume */
-
 .resume-template {
   display: flex;
   align-items: center;
