@@ -7,7 +7,7 @@ class Resume extends Component {
                     <img
                         src="https://res.cloudinary.com/angelrodriguez/image/upload/q_100/v1541122983/angel-rodriguez-resume-digital.png"
                         alt="resume"
-                        style={{width: '65%', height: '70%'}}
+                        style={{ width: '65%', height: '70%'}}
                     />
                 </div>
             </div>
