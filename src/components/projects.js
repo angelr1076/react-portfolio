@@ -31,7 +31,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985058/word-spin.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Word-Spin</CardText>
-                       <CardText>Word-Spin game written in pure JavaScript that generates random JavaScript terminology that the user has 6 chances to guess.</CardText>
+                       <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces termination.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/word-spin">Github</a></Button>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/word-spin/">Live Demo</a></Button>
@@ -46,7 +46,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto',marginBottom: '20px'}}>
                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Map-Attack</CardText>
-                       <CardText>Map-Attack is a game written in pure JavaScript. The game uses the Fetch/Google Maps and Rest Countries APIs.</CardText>
+                       <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces termination</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/">Github</a></Button>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://map-attack-app.herokuapp.com/">Live Demo</a></Button>
@@ -106,7 +106,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/star-shipped.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Star-Shipped</CardText>
-                        <CardText>Shipped app written in Rails allowing the user to create ships, ship crates and create assignments to link ships to orders.</CardText>
+                        <CardText>Shipped app written in Rails allowing the user to create ships, ship crates and create assignments to link ships to orders using ActiveRecord and Paperclip.</CardText>
                         <CardText>Username: guest@gmail.com, Password: guestpass</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/star-shipped">Github</a></Button>
@@ -190,7 +190,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985058/word-spin.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Word-Spin</CardText>
-                        <CardText>Word-Spin game written in pure JavaScript that generates random JavaScript terminology that the user has 6 chances to guess.</CardText>
+                        <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces termination</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/word-spin">Github</a></Button>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/word-spin/">Live Demo</a></Button>
@@ -205,7 +205,7 @@ class Projects extends Component {
                      <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto',marginBottom: '20px'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Map-Attack</CardText>
-                        <CardText>Map-Attack is a game written in pure JavaScript. The game uses the Fetch/Google Maps and Rest Countries APIs.</CardText>
+                        <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces termination</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/">Github</a></Button>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://map-attack-app.herokuapp.com/">Live Demo</a></Button>
@@ -270,7 +270,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/star-shipped.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Star-Shipped</CardText>
-                        <CardText>Shipped app written in Rails allowing the user to create ships, ship crates and create assignments to link ships to orders.</CardText>
+                        <CardText>Shipped app written in Rails allowing the user to create ships, ship crates and create assignments to link ships to orders using ActiveRecord and Paperclip.</CardText>
                         <CardText>Username: guest@gmail.com, Password: guestpass</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/star-shipped">Github</a></Button>
