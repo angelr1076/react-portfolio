@@ -334,11 +334,11 @@ class Projects extends Component {
         return (
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>All</Tab>
-                    <Tab>React</Tab>
-                    <Tab>JavaScript</Tab>
-                    <Tab>Rails</Tab>
-                    <Tab>Sinatra</Tab>
+                    <Tab style={{ color: 'white' }}>All</Tab>
+                    <Tab style={{ color: 'white' }}>React</Tab>
+                    <Tab style={{ color: 'white' }}>JavaScript</Tab>
+                    <Tab style={{ color: 'white' }}>Rails</Tab>
+                    <Tab style={{ color: 'white' }}>Sinatra</Tab>
                 </Tabs>
                 <Grid>
                     <Cell col={12}>
