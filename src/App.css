@@ -16,7 +16,7 @@ body {
 }
 
 /* Landing Page */
-.banner-text h1, h2 {
+.banner-text h1 {
   font-size: 4em;
   font-weight: bold;
   color: rgb(197, 181, 181);
