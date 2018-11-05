@@ -37,7 +37,13 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-github" aria-hidden="true"/>
-                                <a href="https://github.com/angelr1076" rel="noopener noreferrer" target="_blank">https://github.com/angelr1076</a>
+                                <a href="https://github.com/angelr1076" rel="noopener noreferrer" target="_blank">Github</a>
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
+                                <i className="fa fa-sticky-note" aria-hidden="true"/>
+                                <a href="https://angelroddy.com" rel="noopener noreferrer" target="_blank">My Blog</a>
                                 </ListItemContent>
                             </ListItem>
                         </List>

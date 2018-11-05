@@ -55,7 +55,6 @@ function Main({ location }) {
    width: 100%;
    top: 0;
    left: 0;
- }
-`;
+ }`;
 
 export default withRouter(Main);
