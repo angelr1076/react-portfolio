@@ -31,7 +31,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985058/word-spin.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Word-Spin</CardText>
-                       <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces termination.</CardText>
+                       <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces elimination.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/word-spin">Github</a></Button>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/word-spin/">Live Demo</a></Button>
@@ -46,7 +46,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto',marginBottom: '20px'}}>
                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Map-Attack</CardText>
-                       <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces termination</CardText>
+                       <CardText>Map-Attack uses the Goole Maps and REST Countries API. Both APIs work together by plotting out random points on the globe and generating random questions and multiple choice answers for the user to interact with during gameplay.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/">Github</a></Button>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://map-attack-app.herokuapp.com/">Live Demo</a></Button>
@@ -76,7 +76,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Bible Verses</CardText>
-                       <CardText>jQuery app converted to JavaScript using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
+                       <CardText>jQuery app using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/bible-verses-updated">Github</a></Button>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/bible-verses-updated/#">Live Demo</a></Button>
@@ -190,7 +190,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985058/word-spin.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Word-Spin</CardText>
-                        <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces termination</CardText>
+                        <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces elimination.</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/word-spin">Github</a></Button>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/word-spin/">Live Demo</a></Button>
@@ -205,7 +205,7 @@ class Projects extends Component {
                      <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto',marginBottom: '20px'}}>
                         <CardTitle style={{color: 'black', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Map-Attack</CardText>
-                        <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces termination</CardText>
+                        <CardText>Map-Attack uses the Goole Maps and REST Countries API. Both APIs work together by plotting out random points on the globe and generating random questions and multiple choice answers for the user to interact with during gameplay.</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/">Github</a></Button>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://map-attack-app.herokuapp.com/">Live Demo</a></Button>
@@ -235,7 +235,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
                         <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Bible Verses</CardText>
-                        <CardText>jQuery app converted to JavaScript using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
+                        <CardText>jQuery app using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/bible-verses-updated">Github</a></Button>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/bible-verses-updated/#">Live Demo</a></Button>

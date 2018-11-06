@@ -12,7 +12,7 @@ body {
 }
 
 .mdl-navigation__link:hover {
-  background: grey;
+  background-color: blue;
 }
 
 /* Landing Page */
