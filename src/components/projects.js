@@ -74,7 +74,7 @@ class Projects extends Component {
                     {/* Project 6 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1541985938/Screen_Shot_2018-11-11_at_8.24.15_PM.png) center / cover'}}></CardTitle>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Bible Verses</CardText>
                        <CardText>jQuery app using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
                        <CardActions border>
@@ -233,7 +233,7 @@ class Projects extends Component {
                     {/* Project 6 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1541985938/Screen_Shot_2018-11-11_at_8.24.15_PM.png) center / cover'}}></CardTitle>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Bible Verses</CardText>
                         <CardText>jQuery app using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
                         <CardActions border>
