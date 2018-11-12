@@ -74,12 +74,12 @@ class Projects extends Component {
                     {/* Project 6 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}></CardTitle>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1542052847/Screen_Shot_2018-11-12_at_2.56.04_PM.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Bible Verses</CardText>
-                       <CardText>jQuery app using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
+                       <CardText>JavaScript app uses the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter. The background color changes each time a new verse is fetched.</CardText>
                        <CardActions border>
-                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/bible-verses-updated">Github</a></Button>
-                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/bible-verses-updated/#">Live Demo</a></Button>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/verses-fetch">Github</a></Button>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/verses-fetch/#">Live Demo</a></Button>
                        </CardActions>
                        <CardMenu style={{color: '#fff'}}>
                            <IconButton name="share" />
@@ -233,16 +233,16 @@ class Projects extends Component {
                     {/* Project 6 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1532199115/bible.png) center / cover'}}></CardTitle>
-                        <CardText style={{color: 'black', fontSize: '20px'}}>Bible Verses</CardText>
-                        <CardText>jQuery app using the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter.</CardText>
-                        <CardActions border>
-                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/bible-verses-updated">Github</a></Button>
-                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/bible-verses-updated/#">Live Demo</a></Button>
-                        </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
-                            <IconButton name="share" />
-                        </CardMenu>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1542052847/Screen_Shot_2018-11-12_at_2.56.04_PM.png) center / cover'}}></CardTitle>
+                       <CardText style={{color: 'black', fontSize: '20px'}}>Bible Verses</CardText>
+                       <CardText>JavaScript app uses the Mashape API to generate random bible verses from NKJV. Allows users to post verses they like on Twitter. The background color changes each time a new verse is fetched.</CardText>
+                       <CardActions border>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/verses-fetch">Github</a></Button>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/verses-fetch/#">Live Demo</a></Button>
+                       </CardActions>
+                       <CardMenu style={{color: '#fff'}}>
+                           <IconButton name="share" />
+                       </CardMenu>
                     </Card>
                     </Cell>
                     {/* Project 7 */}
