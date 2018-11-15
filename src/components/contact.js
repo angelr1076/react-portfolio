@@ -35,6 +35,13 @@ class Contact extends Component {
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
+                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white' }}>
+                                <img src="https://res.cloudinary.com/angelrodriguez/image/upload/e_blackwhite/v1542296790/linkedin.svg" alt="linkedin logo" style={{ width:'60px', height:'60px' }}></img>
+                                <i className="fab fa-linkedin-in" aria-hidden="true"/>
+                                <a href="https://www.linkedin.com/in/angelrodriguezlead/" rel="noopener noreferrer" target="_blank">linkedIn</a>
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-github" aria-hidden="true"/>
                                 <a href="https://github.com/angelr1076" rel="noopener noreferrer" target="_blank">Github</a>
