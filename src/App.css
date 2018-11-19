@@ -66,7 +66,7 @@ body {
 }
 
 .landing-body {
-  background: rgb(31, 29, 29);
+  background-color: rgb(31, 29, 29);
   color: rgb(243, 237, 237);
   text-align: center;
   top: 0;
@@ -105,7 +105,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(77, 74, 74);
+  background-color: rgb(77, 74, 74);
 }
 
 /* Contact Page */
@@ -117,9 +117,6 @@ a {
   justify-content: center;
   padding-top: 2em;
   overflow: scroll;
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .contact-grid {
@@ -127,9 +124,10 @@ a {
   justify-content: center;
   width: 80%;
   height: 650px;
-  background: #a73737;  
-  background: -webkit-linear-gradient(to top, #7a2828, #a73737);  
-  background: linear-gradient(to top, #7a2828, #a73737); 
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
   margin-bottom: 20px;
 }
 

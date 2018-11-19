@@ -19,7 +19,6 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr/>
-
                         <div style={{ width: '100%', margin: 'auto' }} className="contact-list">
                         <List>
                             <ListItem>
@@ -36,8 +35,7 @@ class Contact extends Component {
                             </ListItem>
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white' }}>
-                                <img src="https://res.cloudinary.com/angelrodriguez/image/upload/e_blackwhite/v1542296790/linkedin.svg" alt="linkedin logo" style={{ width:'60px', height:'60px' }}></img>
-                                <i className="fab fa-linkedin-in" aria-hidden="true"/>
+                                <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 <a href="https://www.linkedin.com/in/angelrodriguezlead/" rel="noopener noreferrer" target="_blank">linkedIn</a>
                                 </ListItemContent>
                             </ListItem>
