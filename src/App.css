@@ -77,16 +77,32 @@ body {
 
 .landing-bio p {
   font-family: 'Oxygen', sans-serif;
+  padding: 0;
   font-weight: bold;
-  font-size: 1em;
-  letter-spacing: 1px;
-  text-align: left;
+  font-size: 1.1em;
+  letter-spacing: 0px;
+  text-align: justify;
 }
 
 .landing-grid hr {
   border-top: 5px solid white;
   width: 70%;
   margin: auto;
+}
+
+@media all and (max-width: 400px) {
+  .social-links {
+    justify-content: center;
+  }
+  
+  .landing-bio p {
+    padding-left: 6%;
+  }
+
+  .mdl-layout__drawer-button {
+    color: whitesmoke !important;
+  }
+
 }
 
 /* Projects */
@@ -98,6 +114,12 @@ body {
 
 a {
   text-decoration: none;
+}
+
+@media all and (max-width: 400px) {
+  .mdl-tabs__tab {
+    padding: 0 5px 0 5px !important;
+  }
 }
 
 /* Resume */
@@ -124,7 +146,6 @@ a {
   justify-content: center;
   border-radius: 10px;
   width: 80%;
-  height: 650px;
   background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -157,4 +178,9 @@ a {
   color: white;
 }
 
-
+@media all and (max-width: 400px) {
+  .mdl-list__item .mdl-list__item-primary-content {
+    font-size: 15px !important;
+    margin: 5px;
+  }
+}

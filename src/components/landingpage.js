@@ -54,13 +54,15 @@ class Landing extends Component {
 
                     <Cell col={6}>
                         <div className="landing-bio">
-                            <p style={{width: '75%', margin: '5%', paddingTop: '1em'}}>Hello, my name's Angel! Thanks for checking out my website! After years in the food service industry, I decided to follow my true passion of building things, breaking them, and rebuilding the things I broke only to make them better! A little over a year ago, I decided I needed a drastic change in my life. I came to realize the food industry I once loved so much was never truly my number one passion.</p>
+                            <p style={{width: '75%', margin: '5%'}}>Greetings, and thanks for checking out my website! I'm a web developer that is passionate about learning new things each and every day! In fact, since I have been coding a little over a year ago, I can say there hasn't been a day that I haven't had the opportunity to learn something new. I chose programming/web development as a way to solve problems.</p>
 
-                            <p style={{width: '75%', margin: '5%', paddingTop: '1em'}}>I've always been fascinated by tech, in some shape or form. Whether it was building a menu on my laptop, running price changes in a database or livening up a personal website with some HTML. I have been coding for over a year now, and recently, I decided to take a deep dive into a web/software development bootcamp. I realized this was one of the greatest decisions I have ever made. It was also the best investment I could ever make in myself. My passion has always truly been problem solving and tech is one of the best ways to exercise these skills. Yes, programming can be difficult -- it can test your will and your spirit. However, I feel that programming has also shown me what I'm truly made of and how much I can accomplish if I don't give up and simply keep learning and improving my craft.</p> 
+                            <p style={{width: '75%', margin: '5%'}}>Prior to learning to program, I had many ideas that I wanted to put into action, but I had no clue where and how to start. At the time where I discovered that you didn't have to have a degree in computer science to solve technical problems, I realized I could empower myself, and others to learn to bring their ideas to life by chaining data together through code. </p> 
 
-                            <p style={{width: '75%',  margin: '5%', paddingTop: '1em'}}>I don't have a preference from back or front-end work. I enjoy both and my approach to either one is that I will learn more as I handle each end. I have also worked in training many people on the job, so I'm no stranger to dealing with a vast array of personalities.</p> 
+                            <p style={{width: '75%',  margin: '5%'}}>When I have an idea that I'm able to sketch out, plan and bring to life to view and interact with, it is like no other feeling I have experienced in my career in any other field. It is such a powerful, and empowering feeling to create, break, and improve your own creation through code, and also learn from doing that in the process.</p>
+                            
+                            <p style={{width: '75%',  margin: '5%'}}>Aside from programming, my creativity also extends to cooking. I love to form new recipes, cook then serve them to family and friends. </p>
 
-                            <p style={{width: '75%', margin: '5%', paddingTop: '1em'}}>If you feel that I could be a good fit at your company, please call or email me.</p>
+                            <p style={{width: '75%', margin: '5%'}}>I would love the opportunity to speak with you if you have questions about my background or if you'd like to interview me and maybe talk about food or tech. Thank you!</p>
                         </div>
                     </Cell>
                 </Grid>
