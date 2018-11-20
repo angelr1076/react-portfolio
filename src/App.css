@@ -5,6 +5,7 @@ body {
   background: #FF416C;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  cursor: pointer;
 }
 
 .header-color {
@@ -90,21 +91,6 @@ body {
   margin: auto;
 }
 
-@media all and (max-width: 400px) {
-  .social-links {
-    justify-content: center;
-  }
-  
-  .landing-bio p {
-    padding-left: 6%;
-  }
-
-  .mdl-layout__drawer-button {
-    color: whitesmoke !important;
-  }
-
-}
-
 /* Projects */
 .projects-grid {
   display: flex;
@@ -114,12 +100,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-@media all and (max-width: 400px) {
-  .mdl-tabs__tab {
-    padding: 0 5px 0 5px !important;
-  }
 }
 
 /* Resume */
@@ -178,9 +158,28 @@ a {
   color: white;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
+
+  .social-links {
+    justify-content: center;
+  }
+  
+  .landing-bio p {
+    padding-left: 6%;
+  }
+
+  .mdl-layout__drawer-button {
+    color: whitesmoke !important;
+  }
+
+  .mdl-tabs__tab {
+    padding: 0 5px 0 5px !important;
+  }
+
   .mdl-list__item .mdl-list__item-primary-content {
-    font-size: 15px !important;
+    font-size: 20px !important;
     margin: 5px;
+    padding: 5px;
+    text-align: justify;
   }
 }
