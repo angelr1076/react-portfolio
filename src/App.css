@@ -158,7 +158,15 @@ a {
   color: white;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 1025px) {
+  
+  .mdl-layout__drawer-button {
+    color: whitesmoke !important;
+  }
+
+}
+
+@media all and (max-width: 600px) {
 
   .social-links {
     justify-content: center;
@@ -166,10 +174,6 @@ a {
   
   .landing-bio p {
     padding-left: 6%;
-  }
-
-  .mdl-layout__drawer-button {
-    color: whitesmoke !important;
   }
 
   .mdl-tabs__tab {
