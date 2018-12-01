@@ -59,7 +59,7 @@ class Projects extends Component {
                     {/* Project 5 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                       <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/weather.png) center / cover'}}></CardTitle>
+                       <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543635837/localweather.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Local Weather</CardText>
                        <CardText>Weather app using the OpenWeather API and geolocation displaying user's local weather and time based on location.</CardText>
                        <CardActions border>
@@ -218,7 +218,7 @@ class Projects extends Component {
                     {/* Project 5 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/weather.png) center / cover'}}></CardTitle>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543635837/localweather.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Local Weather</CardText>
                         <CardText>Weather app using the OpenWeather API and geolocation displaying user's local weather and time based on location.</CardText>
                         <CardActions border>
