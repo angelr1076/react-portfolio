@@ -46,7 +46,7 @@ body {
 }
 
 .social-links i {
-  color: white;
+  color: rgb(245, 245, 248);
   font-size: 5em;
   padding: 8px;
 }
@@ -156,6 +156,10 @@ a {
   font-size: 66px;
   padding-right: 5rem;
   color: white;
+}
+
+.contact-grid hr, .contact-closing {
+  padding: 5px 0 5px 0;
 }
 
 @media all and (max-width: 1025px) {

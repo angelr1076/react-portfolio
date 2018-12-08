@@ -29,7 +29,7 @@ class Projects extends Component {
                     {/* Project 2 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                       <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985058/word-spin.png) center / cover'}}></CardTitle>
+                       <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543806642/Screen_Shot_2018-12-02_at_10.09.05_PM.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Word-Spin</CardText>
                        <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces elimination.</CardText>
                        <CardActions border>
@@ -59,7 +59,7 @@ class Projects extends Component {
                     {/* Project 5 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                       <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543635837/localweather.png) center / cover'}}></CardTitle>
+                       <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543937588/Local_Weather.png) center / cover'}}></CardTitle>
                        <CardText style={{color: 'black', fontSize: '20px'}}>Local Weather</CardText>
                        <CardText>Weather app using the OpenWeather API and geolocation displaying user's local weather and time based on location.</CardText>
                        <CardActions border>
@@ -188,7 +188,7 @@ class Projects extends Component {
                     {/* Project 2 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985058/word-spin.png) center / cover'}}></CardTitle>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543806642/Screen_Shot_2018-12-02_at_10.09.05_PM.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Word-Spin</CardText>
                         <CardText>Word-Spin game that generates random JavaScript terminology. The user wins the game with ten correct answers in a row. The user cannot miss one word though, or he/she faces elimination.</CardText>
                         <CardActions border>
@@ -218,7 +218,7 @@ class Projects extends Component {
                     {/* Project 5 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px'}}>
-                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543635837/localweather.png) center / cover'}}></CardTitle>
+                        <CardTitle style={{color: 'yellow', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543937588/Local_Weather.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Local Weather</CardText>
                         <CardText>Weather app using the OpenWeather API and geolocation displaying user's local weather and time based on location.</CardText>
                         <CardActions border>

@@ -8,9 +8,9 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={6}>
                     <div className="banner-text">
-                        <h1>Angel Rodriguez</h1>
-                        <h2>Full Stack Web Developer</h2>
-                        <h3>Philadelphia, PA</h3>
+                        <h1 className="name-header">Angel Rodriguez</h1>
+                        <h3 className="dev-header">Full Stack Web Developer</h3>
+                        <h3 className="location-header">Philadelphia, PA</h3>
                     </div>
                         <div className="social-links">
                             {/* LinkedIn */}
@@ -34,7 +34,7 @@ class Landing extends Component {
                         <div className="devicons">
                             <i className="devicon-javascript-plain colored" />
                             <i className="devicon-jquery-plain-wordmark colored" />
-                            <i className="devicon-react-original colored" />
+                            <i className="devicon-react-original-wordmark colored" />
                             <i className="devicon-ruby-plain-wordmark colored" />
                             <i className="devicon-rails-plain-wordmark colored" />
                             <i className="devicon-bootstrap-plain-wordmark" />
@@ -48,7 +48,6 @@ class Landing extends Component {
                             <i className="devicon-github-plain-wordmark" />
                             <i className="devicon-git-plain-wordmark" />
                             <i className="devicon-gitlab-plain-wordmark colored" />
-                            <p className="skills">JavaScript | jQuery | React | Sass | ActiveRecord | Node.js | JSON | Phaser3 | Tiled | SQLite3 | Ruby | Ruby on Rails | Sinatra | Heroku | Firebase | Hugo | Bootsrap | Materialize | HTML5 | CSS3 | Git | Github</p>
                         </div>
                     </Cell>
 

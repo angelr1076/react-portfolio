@@ -15,7 +15,10 @@ class Contact extends Component {
                         style={{ width: '80%', height: 'auto' }}
                     />
 
-                    <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>I'm a web developer with a passion for front and back-end design. I've worked with: JavaScript, React, jQuery, Sass, AWS, ActiveRecord, Node.js, JSON, Phaser3, Tiled, SQLite3, Ruby, Ruby on Rails, Sinatra, Heroku, Firebase, Hugo, Bootsrap, Materialize, HTML5, CSS3, Git and Github. Please contact me if you have any questions or advice. My contact information is listed on this page so you can get a hold of me any way you'd like.</p>
+                    <p className="contact-closing" style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Full-Stack web developer with a passion for front and backend design. Please contact me if you have any questions or comments. Aside from programming, I love to spend time with my wife, read and cook.</p>
+                    <hr></hr>
+                    <p className="skills">JavaScript | jQuery | React | Sass | ActiveRecord | Node.js | JSON | Phaser3 | Tiled | SQLite3 | Ruby | Ruby on Rails | Sinatra | Heroku | Firebase | Hugo | Bootsrap | Materialize | HTML5 | CSS3 | Git | Github</p>
+
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
