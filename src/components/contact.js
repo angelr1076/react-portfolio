@@ -17,7 +17,7 @@ class Contact extends Component {
 
                     <p className="contact-closing" style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Full-Stack web developer with a passion for front and backend design. Please contact me if you have any questions or comments. Aside from programming, I love to spend time with my wife, read and cook.</p>
                     <hr></hr>
-                    <p className="skills">JavaScript | jQuery | React | Sass | ActiveRecord | Node.js | JSON | Phaser3 | Tiled | SQLite3 | Ruby | Ruby on Rails | Sinatra | Heroku | Firebase | Hugo | Bootsrap | Materialize | HTML5 | CSS3 | Git | Github</p>
+                    <p className="skills" style={{ width: '90%', padding: '3px', margin: 'auto' }}>JavaScript | jQuery | React | Sass | ActiveRecord | Node.js | JSON | Phaser3 | Tiled | SQLite3 | Ruby | Ruby on Rails | Sinatra | Heroku | Firebase | Hugo | Bootsrap | Materialize | HTML5 | CSS3 | Git | Github</p>
 
                     </Cell>
                     <Cell col={6}>
