@@ -152,7 +152,7 @@ class Projects extends Component {
                         <CardTitle style={{color: 'white', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/coder-bytes.png) center / cover'}}></CardTitle>
                         <CardText style={{color: 'black', fontSize: '20px'}}>Coder-Bytes</CardText>
                         <CardText>Full CRUD site written in Sinatra allowing users to setup user accounts, profiles, posts and comments.</CardText>
-                        <CardText>Username: guest, Password: guestpass</CardText>
+                        <CardText>Username: guest@gmail.com, Password: guestpass</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/coder-bytes-sinatra-crud-blog">Github</a></Button>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://coder-bytes.herokuapp.com/">Live Demo</a></Button>
@@ -316,7 +316,7 @@ class Projects extends Component {
                     <CardTitle style={{color: 'white', height: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/coder-bytes.png) center / cover'}}></CardTitle>
                     <CardText style={{color: 'black', fontSize: '20px'}}>Coder-Bytes</CardText>
                     <CardText>Full CRUD site written in Sinatra allowing users to setup user accounts, profiles, posts and comments.</CardText>
-                    <CardText>Username: guest, Password: guestpass</CardText>
+                    <CardText>Username: guest@gmail.com, Password: guestpass</CardText>
                     <CardActions border>
                     <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/coder-bytes-sinatra-crud-blog">Github</a></Button>
                     <Button colored><a rel="noopener noreferrer" target="_blank" href="https://coder-bytes.herokuapp.com/">Live Demo</a></Button>
