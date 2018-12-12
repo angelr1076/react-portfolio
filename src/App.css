@@ -189,4 +189,9 @@ a {
     padding: 5px;
     text-align: justify;
   }
+
+  .resume-template {
+    width: 100%;
+    height: 100%;
+  }
 }
