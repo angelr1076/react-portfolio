@@ -9,7 +9,7 @@ class Landing extends Component {
                     <Cell col={6}>
                     <div className="banner-text">
                         <h1 className="name-header">Angel Rodriguez</h1>
-                        <h3 className="dev-header">Full Stack Web Developer</h3>
+                        <h3 className="dev-header">Front-End Web Developer</h3>
                         <h3 className="location-header">Philadelphia, PA</h3>
                     </div>
                         <div className="social-links">
