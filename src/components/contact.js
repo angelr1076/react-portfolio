@@ -15,7 +15,7 @@ class Contact extends Component {
                         style={{ width: '80%', height: 'auto' }}
                     />
 
-                    <p className="contact-closing" style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Front-end web developer with a passion for front and backend design. Please contact me if you have any questions or comments. Aside from programming, I love to spend time with my wife, read and cook.</p>
+                    <p className="contact-closing" style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Front-end web developer with a passion for design and solving problems. Please contact me if you have any questions or comments. Aside from programming, I love to spend time with my wife, read and cook.</p>
                     <hr></hr>
                     <p className="skills" style={{ width: '90%', padding: '3px', margin: 'auto' }}>JavaScript | jQuery | React | Sass | ActiveRecord | Node.js | JSON | Phaser3 | Tiled | SQLite3 | Ruby | Ruby on Rails | Sinatra | Heroku | Firebase | Hugo | Bootstrap | Materialize | SemanticUI | HTML5 | CSS3 | Git | Github</p>
 
@@ -47,6 +47,12 @@ class Contact extends Component {
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-github" aria-hidden="true"/>
                                 <a href="https://github.com/angelr1076" rel="noopener noreferrer" target="_blank">Github</a>
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
+                                <i className="fa fa-sticky-note" aria-hidden="true"/>
+                                <a href="https://angelroddy.com" rel="noopener noreferrer" target="_blank">My Blog</a>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
