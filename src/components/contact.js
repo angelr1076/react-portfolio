@@ -55,12 +55,6 @@ class Contact extends Component {
                                 <a href="https://angelroddy.com" rel="noopener noreferrer" target="_blank">My Blog</a>
                                 </ListItemContent>
                             </ListItem>
-                            <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
-                                <i className="fa fa-sticky-note" aria-hidden="true"/>
-                                <a href="https://angelroddy.com" rel="noopener noreferrer" target="_blank">My Blog</a>
-                                </ListItemContent>
-                            </ListItem>
                         </List>
                         </div>
                     </Cell>
