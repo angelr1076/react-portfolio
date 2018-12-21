@@ -2,9 +2,7 @@
   font-family: 'Oxygen', sans-serif;
 }
 body {
-  background: #FF416C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  background-color: rgb(31, 29, 29);
   cursor: pointer;
 }
 
@@ -125,10 +123,6 @@ a {
   text-align: center;
   justify-content: center;
   width: 80%;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #434343, #1d1a1a, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #434343, #1f1919, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
   margin-bottom: 20px;
 }
 
