@@ -2,7 +2,7 @@
   font-family: 'Oxygen', sans-serif;
 }
 body {
-  background-color: rgb(31, 29, 29);
+  background-color: rgb(29, 26, 26);
   cursor: pointer;
 }
 
@@ -65,7 +65,6 @@ body {
 }
 
 .landing-body {
-  background-color: rgb(31, 29, 29);
   color: rgb(243, 237, 237);
   text-align: center;
   top: 0;
@@ -128,7 +127,7 @@ a {
 
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
-  color: rgb(235, 228, 228);
+  color: rgb(220, 235, 8);
   letter-spacing: 2px;
 }
 
@@ -141,7 +140,7 @@ a {
 
 .contact-grid hr {
   border-top: 5px dotted rgb(121, 109, 109);
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
 
@@ -153,6 +152,11 @@ a {
 
 .contact-grid hr, .contact-closing {
   padding: 5px 0 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
 }
 
 @media all and (max-width: 1025px) {

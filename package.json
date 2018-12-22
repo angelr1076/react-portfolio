@@ -5,6 +5,7 @@
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.4",
+    "firebase-tools": "^6.2.0",
     "pdfjs-dist": "^2.0.943",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
