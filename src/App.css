@@ -150,13 +150,13 @@ a {
   color: white;
 }
 
-.contact-grid hr, .contact-closing {
-  padding: 5px 0 5px 0;
-}
-
-a {
+.contact-list a {
   text-decoration: none;
   color: white !important;
+}
+
+.contact-grid hr, .contact-closing {
+  padding: 5px 0 5px 0;
 }
 
 @media all and (max-width: 1025px) {
