@@ -167,6 +167,31 @@ a {
 
 }
 
+@media (max-width: 839px) and (min-width: 480px) {
+
+  .mdl-cell--6-col, .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+      width: calc(50% - 16px) !important;
+  }
+
+}
+
+@media (min-width: 700px) and (max-width: 770px) {
+
+  .mdl-grid {
+    flex-wrap: nowrap !important;
+  }
+
+  .mdl-list__item {
+    overflow: visible !important;
+  }
+
+  .contact-list i {
+    font-size: 1.5em;
+    float: left;
+  }
+
+}
+
 @media all and (max-width: 600px) {
 
   .social-links {
