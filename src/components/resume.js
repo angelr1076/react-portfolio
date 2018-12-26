@@ -5,7 +5,7 @@ class Resume extends Component {
             <div>
                 <div className="resume-template">
                     <img
-                        src="https://res.cloudinary.com/angelrodriguez/image/upload/v1545020480/rodriguez_angel_resume.png"
+                        src="https://res.cloudinary.com/angelrodriguez/image/upload/v1545854975/rodriguez_angel_resume.png"
                         alt="resume"
                         style={{ width: '70%', height: '70%'}}
                     />
