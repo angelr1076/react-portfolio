@@ -53,13 +53,13 @@ class Landing extends Component {
 
                     <Cell col={6}>
                         <div className="landing-bio">
-                            <p style={{width: '75%', margin: '5%'}}>Hello, and thanks for checking out my website! I'm a web developer that is passionate about learning new things each and every day! In fact, since I've been coding a little over a year ago, I can say there hasn't been a day that I haven't had the opportunity to learn something new. I chose programming/web development as a way to solve problems.</p>
+                            <p style={{width: '75%', margin: '5%'}}>Hi, and thanks for checking out my site! I'm a web developer that's passionate about growth, people and learning new things! In fact, since I've been coding, I can say there hasn't been a day that I haven't had the opportunity to learn something new. I chose programming as a way to solve problems and bring my ideas to life.</p>
 
-                            <p style={{width: '75%', margin: '5%'}}>Prior to learning to program, I had many ideas that I wanted to put into action, but I had no clue on where or how to begin. At the time when I discovered that you didn't have to have a degree in computer science to solve technical problems, I realized I could empower myself, and others to learn to bring ideas to life by chaining data together through code. </p> 
+                            <p style={{width: '75%', margin: '5%'}}>Prior to learning to code, I had so many ideas that I wanted to materialize, but I had no clue about where or how to begin. At the time when I discovered that you didn't have to have a degree in computer science to solve technical problems, I realized I could challenge myself, and others to bring concepts together by combining data through code. </p> 
 
-                            <p style={{width: '75%',  margin: '5%'}}>When I have an idea that I'm able to sketch out, plan and bring to life to view and interact with, it is like no other feeling I've experienced at prior jobs. It's such a gratifying feeling to create, break, and improve your own projects through code, and also learn from it in the process.</p>
+                            <p style={{width: '75%',  margin: '5%'}}>When I have an idea that I'm able to sketch out, plan and bring to life to view and interact with, it is like no other feeling I've experienced in my prior work. It's such a gratifying feeling to create, break, and improve your own projects through code, and also learn from it in the process.</p>
 
-                            <p style={{width: '75%', margin: '5%'}}>I would love the opportunity to speak with you if you have questions about my background or if you'd like to interview me and maybe talk about food or tech. Please browse around and view my "Resume" and "Projects" pages. You can also find my contact information on the "Contact" page.</p>
+                            <p style={{width: '75%', margin: '5%'}}>I would love the opportunity to speak with you if you have questions about my background or if you'd like to interview me and maybe talk about food or tech. Please browse around and view my "Resume" and "Projects" pages. You can also find some of my links on the "Contact" page.</p>
                         </div>
                     </Cell>
                 </Grid>
