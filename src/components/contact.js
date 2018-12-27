@@ -17,7 +17,11 @@ class Contact extends Component {
 
                     <p className="contact-closing" style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Front-end web developer with a passion for design and problem-solving. Please contact me if you have any questions or comments. Aside from programming, I love to spend time with my wife, read and cook.</p>
                     <hr></hr>
-                    <p className="skills" style={{ width: '90%', padding: '3px', margin: 'auto' }}>JavaScript | jQuery | React | Sass | ActiveRecord | Node.js | JSON | Phaser3 | Tiled | SQLite3 | Ruby | Ruby on Rails | Sinatra | Heroku | Firebase | Hugo | Bootstrap | Materialize | SemanticUI | HTML5 | CSS3 | Git | Github</p>
+                    <p className="skills" style={{ width: '90%', padding: '3px', margin: 'auto' }}>Programming: JavaScript, jQuery, React, JSON, SQLite3, Ruby on Rails, Sinatra, HTML5 and CSS3
+                    </p>
+
+                    <p className="skills" style={{ width: '90%', padding: '3px', margin: 'auto' }}>Software: Heroku, Firebase, Hugo, Bootstrap, Git and Github
+                    </p>
 
                     </Cell>
                     <Cell col={6}>
