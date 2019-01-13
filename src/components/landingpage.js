@@ -53,7 +53,7 @@ class Landing extends Component {
 
                     <Cell col={6}>
                         <div className="landing-bio">
-                            <p style={{width: '75%', margin: '5%'}}>Hi, and thanks for checking out my site! I'm a web developer that's passionate about growth, people and learning new things! In fact, since I've been coding, I can say there hasn't been a day that I haven't had the opportunity to learn something new. I chose programming as a way to solve problems and bring my ideas to life.</p>
+                            <p style={{width: '75%', margin: '5%'}}>Hi, and thanks for checking out my site! I'm a web developer that's passionate about growth, people and learning new things! In fact, since I've been programming, I can say there hasn't been a day that I haven't had the opportunity to learn something new. I chose programming as a way to solve problems and bring my ideas to life.</p>
 
                             <p style={{width: '75%', margin: '5%'}}>Prior to learning to code, I had so many ideas that I wanted to materialize, but I had no clue about where or how to begin. At the time when I discovered that you didn't have to have a degree in computer science to solve technical problems, I realized I could challenge myself, and others to bring concepts together by combining data through code. </p> 
 
