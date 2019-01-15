@@ -30,7 +30,7 @@ class Contact extends Component {
                         <div style={{ width: '100%', margin: 'auto' }} className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
+                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-phone-square" aria-hidden="true"/>
                                 858.232.3288
                                 </ListItemContent>
@@ -38,7 +38,7 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
-                                angelr1076@gmail.com
+                                <a href="https://www.angelr1076@gmail.com" rel="noopener noreferrer" target="_blank">Email</a>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>

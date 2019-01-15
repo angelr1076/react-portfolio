@@ -25,6 +25,34 @@ class Projects extends Component {
                         </CardMenu>
                     </Card>
                     </Cell>
+                    {/* Project 1.2 */}
+                    <Cell col={6}>
+                    <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
+                       <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/recipe-ease.png) center / cover' }}></CardTitle>
+                       <CardText style={{ color: 'black', fontSize: '20px' }}>Recipe-ease</CardText>
+                       <CardText>Two page app built with Babel and Webpack, and written in JavaScript. The app allows the user to create recipes, instructions and add ingredients.</CardText>
+                       <CardActions border>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/recip-ease">Github</a></Button>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://recipe-easy.firebaseapp.com/index.html">Live Demo</a></Button>
+                       </CardActions>
+                       <CardMenu style={{ color: '#fff' }}>
+                       </CardMenu>
+                    </Card>
+                    </Cell>
+                    {/* Project 1.3 */}
+                    <Cell col={6}>
+                    <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
+                       <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/sudzzz.png) center / cover' }}></CardTitle>
+                       <CardText style={{ color: 'black', fontSize: '20px' }}>Sudzzz</CardText>
+                       <CardText>Beer list app written in JavaScript that allows users to create a digital beer list. The user can also select all or some beer on the list and them based on checked selections.</CardText>
+                       <CardActions border>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/sudzzz">Github</a></Button>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://tart-condition.surge.sh/">Live Demo</a></Button>
+                       </CardActions>
+                       <CardMenu style={{ color: '#fff' }}>
+                       </CardMenu>
+                    </Card>
+                    </Cell>
                     {/* Project 2 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
@@ -178,6 +206,34 @@ class Projects extends Component {
         } else if (this.state.activeTab === 2) {
             return (
                 <div className="projects-grid">
+                    {/* Project 1.2 */}
+                    <Cell col={6}>
+                    <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
+                        <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/recipe-ease.png) center / cover' }}></CardTitle>
+                        <CardText style={{ color: 'black', fontSize: '20px' }}>Recipe-ease</CardText>
+                        <CardText>Two page app built with Babel and Webpack, and written in JavaScript. The app allows the user to create recipes, instructions and add ingredients.</CardText>
+                        <CardActions border>
+                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/recip-ease">Github</a></Button>
+                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://recipe-easy.firebaseapp.com/index.html">Live Demo</a></Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                        </CardMenu>
+                    </Card>
+                    </Cell>
+                    {/* Project 1.3 */}
+                    <Cell col={6}>
+                    <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
+                        <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/sudzzz.png) center / cover' }}></CardTitle>
+                        <CardText style={{ color: 'black', fontSize: '20px' }}>Sudzzz</CardText>
+                        <CardText>Beer list app written in JavaScript that allows users to create a digital beer list. The user can also select all or some beer on the list and them based on checked selections.</CardText>
+                        <CardActions border>
+                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/sudzzz">Github</a></Button>
+                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://tart-condition.surge.sh/">Live Demo</a></Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                        </CardMenu>
+                    </Card>
+                    </Cell>
                     {/* Project 2 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>

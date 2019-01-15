@@ -2,7 +2,7 @@
   font-family: 'Oxygen', sans-serif;
 }
 body {
-  background-color: rgb(29, 26, 26);
+  background-color: rgb(48, 44, 44);
 }
 
 .header-color {
@@ -12,7 +12,7 @@ body {
 }
 
 .mdl-navigation__link:hover {
-  background-color: blue;
+  background-color: rgb(18, 18, 121);
 }
 
 /* Landing Page */
@@ -44,8 +44,12 @@ body {
 
 .social-links i {
   color: rgb(245, 245, 248);
-  font-size: 5em;
+  font-size: 5rem;
   padding: 8px;
+}
+
+.social-links i:hover {
+  color: rgb(138, 138, 139);
 }
 
 .devicons {
@@ -96,6 +100,12 @@ body {
 
 a {
   text-decoration: none;
+  transition: border 0.2s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  border-color: rgb(5, 5, 241);
 }
 
 /* Resume */
