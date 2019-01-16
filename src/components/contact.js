@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItemContent, ListItem } from 'react-mdl';
 
-
 class Contact extends Component {
     render() {
         return (
@@ -38,7 +37,7 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
-                                <a href="https://www.angelr1076@gmail.com" rel="noopener noreferrer" target="_blank">Email</a>
+                                <a href="mailto:angelr1076@gmail.com" rel="noopener noreferrer" target="_blank">Email</a>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
@@ -56,7 +55,7 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
                                 <i className="fa fa-sticky-note" aria-hidden="true"/>
-                                <a href="https://angelroddy.com" rel="noopener noreferrer" target="_blank">My Blog</a>
+                                <a href="https://angelroddy.com" rel="noopener noreferrer" target="_blank">Blog</a>
                                 </ListItemContent>
                             </ListItem>
                         </List>

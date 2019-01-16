@@ -30,7 +30,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
                        <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/recipe-ease.png) center / cover' }}></CardTitle>
                        <CardText style={{ color: 'black', fontSize: '20px' }}>Recipe-ease</CardText>
-                       <CardText>Two page app built with Babel and Webpack, and written in JavaScript. The app allows the user to create recipes, instructions and add ingredients.</CardText>
+                       <CardText>Two page app utilizing Babel and Webpack, and written in JavaScript. The app allows the user to create recipes, instructions and add ingredients.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/recip-ease">Github</a></Button>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://recipe-easy.firebaseapp.com/index.html">Live Demo</a></Button>
@@ -75,7 +75,7 @@ class Projects extends Component {
                        <CardText>The app uses the REST Countries API and Google Maps API to allow the user to view questions at random. The REST API country generator function passes the param to the Google Maps function and plots the given country onto the map for viewing.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/">Github</a></Button>
-                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://map-attack-app.herokuapp.com/">Live Demo</a></Button>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://map-attack.netlify.com/">Live Demo</a></Button>
                        </CardActions>
                        <CardMenu style={{ color: '#fff' }}>
                        </CardMenu>
@@ -211,7 +211,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
                         <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/recipe-ease.png) center / cover' }}></CardTitle>
                         <CardText style={{ color: 'black', fontSize: '20px' }}>Recipe-ease</CardText>
-                        <CardText>Two page app built with Babel and Webpack, and written in JavaScript. The app allows the user to create recipes, instructions and add ingredients.</CardText>
+                        <CardText>Two page app utilizing Babel and Webpack, and written in JavaScript. The app allows the user to create recipes, instructions and add ingredients.</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/recip-ease">Github</a></Button>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://recipe-easy.firebaseapp.com/index.html">Live Demo</a></Button>
@@ -256,7 +256,7 @@ class Projects extends Component {
                        <CardText>The app uses the REST Countries API and Google Maps API to allow the user to view questions at random. The REST API country generator function passes the param to the Google Maps function and plots the given country onto the map for viewing.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/">Github</a></Button>
-                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://map-attack-app.herokuapp.com/">Live Demo</a></Button>
+                       <Button colored><a rel="noopener noreferrer" target="_blank" href="https://map-attack.netlify.com/">Live Demo</a></Button>
                        </CardActions>
                        <CardMenu style={{ color: '#fff' }}>
                        </CardMenu>
