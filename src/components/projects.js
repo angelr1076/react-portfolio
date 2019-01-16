@@ -28,7 +28,7 @@ class Projects extends Component {
                     {/* Project 1.2 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
-                       <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/recipe-ease.png) center / cover' }}></CardTitle>
+                       <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547660216/screecap1.png) center / cover' }}></CardTitle>
                        <CardText style={{ color: 'black', fontSize: '20px' }}>Recipe-ease</CardText>
                        <CardText>Two page app utilizing Babel and Webpack, and written in JavaScript. The app allows the user to create recipes, instructions and add ingredients.</CardText>
                        <CardActions border>
@@ -209,7 +209,7 @@ class Projects extends Component {
                     {/* Project 1.2 */}
                     <Cell col={6}>
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
-                        <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/recipe-ease.png) center / cover' }}></CardTitle>
+                        <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547660216/screecap1.png) center / cover' }}></CardTitle>
                         <CardText style={{ color: 'black', fontSize: '20px' }}>Recipe-ease</CardText>
                         <CardText>Two page app utilizing Babel and Webpack, and written in JavaScript. The app allows the user to create recipes, instructions and add ingredients.</CardText>
                         <CardActions border>
