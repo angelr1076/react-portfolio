@@ -3,7 +3,9 @@
 }
 
 body {
-  background-color: rgb(48, 44, 44);
+  background: #FF416C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .header-color {
@@ -16,158 +18,8 @@ body {
   background-color: rgb(18, 18, 121);
 }
 
-/* Landing Page */
-.banner-text h1 {
-  font-size: 4em;
-  font-weight: bold;
-  color: rgb(197, 181, 181);
-  text-align: center;
-}
 
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
 
-.banner-text p {
-  color: white;
-  font-size: 20px;
-  padding: 1em;
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
-
-.social-links i {
-  color: rgb(245, 245, 248);
-  font-size: 5rem;
-  padding: 8px;
-}
-
-.social-links i:hover {
-  color: rgb(138, 138, 139);
-}
-
-.devicons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-  margin-top: 15px;
-}
-
-.devicons i {
-  color: white;
-  font-size: 4.5em;
-  padding: 8px;
-}
-
-.landing-body {
-  color: rgb(243, 237, 237);
-  text-align: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.landing-bio p {
-  font-family: 'Oxygen', sans-serif;
-  padding: 0;
-  font-weight: bold;
-  font-size: 1.1em;
-  letter-spacing: 0px;
-  text-align: justify;
-}
-
-.landing-grid hr {
-  border-top: 5px solid white;
-  width: 70%;
-  margin: auto;
-}
-
-/* Projects */
-.projects-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-a {
-  text-decoration: none;
-  transition: border 0.2s ease-in-out;
-  border-bottom: 1px solid transparent;
-}
-
-a:hover {
-  border-color: rgb(200, 200, 211);
-}
-
-/* Resume */
-.resume-template {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(77, 74, 74);
-}
-
-/* Contact Page */
-.contact-body {
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 1em;
-  overflow: scroll;
-}
-
-.contact-grid {
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  margin-bottom: 2rem;
-}
-
-.contact-grid h2 {
-  font-family: 'Anton', sans-serif;
-  color: rgb(220, 235, 8);
-  letter-spacing: 2px;
-}
-
-.contact-grid p {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-  color: white;
-  letter-spacing: .5px;
-}
-
-.contact-grid hr {
-  border-top: 5px dotted rgb(121, 109, 109);
-  width: 80%;
-  margin: auto;
-}
-
-.contact-list i {
-  font-size: 66px;
-  padding-right: 5rem;
-  color: white;
-}
-
-.contact-list a {
-  text-decoration: none;
-  color: white !important;
-}
-
-.contact-grid hr, .contact-closing {
-  padding: 5px 0 5px 0;
-}
 
 @media all and (max-width: 1025px) {
   
@@ -185,24 +37,24 @@ a:hover {
 
 }
 
+@media all and (max-width: 700px) {
+  .projects-grid {
+    display: block;
+  }
+}
+
 @media (min-width: 700px) and (max-width: 770px) {
 
-  .mdl-grid {
+   .mdl-grid {
     flex-wrap: nowrap !important;
   }
 
   .mdl-list__item {
     overflow: visible !important;
   }
-
-  .contact-list i {
-    font-size: 1.5em;
-    float: left;
-  }
-
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
 
   .social-links {
     justify-content: center;
@@ -228,4 +80,3 @@ a:hover {
     height: 100%;
   }
 }
-

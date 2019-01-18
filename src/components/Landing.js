@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import './Landing.css';
 
 class Landing extends Component {
     render() {
         return (
             <div className="landing-body">
                 <Grid className="landing-grid">
-                    <Cell col={6}>
+                    <Cell col={6} xs={12} sm={6}>
                     <div className="banner-text">
                         <h1 className="name-header">Angel Rodriguez</h1>
                         <h3 className="dev-header">Front-End Web Developer</h3>
@@ -32,26 +33,26 @@ class Landing extends Component {
                         <hr/>
                         
                         <div className="devicons">
-                            <i className="devicon-javascript-plain colored" />
-                            <i className="devicon-jquery-plain-wordmark colored" />
-                            <i className="devicon-react-original-wordmark colored" />
-                            <i className="devicon-ruby-plain-wordmark colored" />
-                            <i className="devicon-rails-plain-wordmark colored" />
+                            <i className="devicon-javascript-plain" />
+                            <i className="devicon-jquery-plain-wordmark" />
+                            <i className="devicon-react-original-wordmark" />
+                            <i className="devicon-ruby-plain-wordmark" />
+                            <i className="devicon-rails-plain-wordmark" />
                             <i className="devicon-bootstrap-plain-wordmark" />
-                            <i className="devicon-html5-plain-wordmark colored" />
-                            <i className="devicon-css3-plain-wordmark colored" />
-                            <i className="devicon-sass-original colored" />
-                            <i className="devicon-visualstudio-plain-wordmark" />
+                            <i className="devicon-html5-plain-wordmark" />
+                            <i className="devicon-css3-plain-wordmark" />
+                            <i className="devicon-sass-original" />
+                            <i className="devicon-visualstudio-plain" />
                             <i className="devicon-nodejs-plain" />
-                            <i className="devicon-amazonwebservices-plain-wordmark" />
-                            <i className="devicon-heroku-original-wordmark colored" />
+                            <i className="devicon-amazonwebservices-plain" />
+                            <i className="devicon-heroku-original-wordmark" />
                             <i className="devicon-github-plain-wordmark" />
-                            <i className="devicon-git-plain-wordmark" />
-                            <i className="devicon-gitlab-plain-wordmark colored" />
+                            <i className="devicon-git-plain" />
+                            <i className="devicon-gitlab-plain-wordmark" />
                         </div>
                     </Cell>
 
-                    <Cell col={6}>
+                    <Cell col={6} xs={12} sm={6}>
                         <div className="landing-bio">
                             <p style={{width: '75%', margin: '5%'}}>Hi, and thanks for checking out my site! I'm a web developer that's passionate about growth, people and learning new things! In fact, since I've been programming, I can say there hasn't been a day that I haven't had the opportunity to learn something new. I chose programming as a way to solve problems and bring my ideas to life.</p>
 

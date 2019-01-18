@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Header, Navigation, Layout, Drawer, Content } from 'react-mdl';
-import Main from './components/main';
+import Main from './components/Main';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -9,14 +9,14 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Portfolio</Link>} scroll>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Home</Link>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'red'}} to="/">Portfolio</Link>}>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'red'}} to="/">Home</Link>}>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>

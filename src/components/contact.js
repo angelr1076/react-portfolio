@@ -1,70 +1,98 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItemContent, ListItem } from 'react-mdl';
+import { Grid, Cell, Textfield, Button } from 'react-mdl';
+import './Contact.css';
+import axios from "axios";
 
 class Contact extends Component {
-    render() {
-        return (
-            <div className="contact-body">
-                <Grid className="contact-grid">
-                    <Cell col={6}>
-                    <h2>Angel Rodriguez</h2>
-                    <img 
-                        src="https://res.cloudinary.com/angelrodriguez/image/upload/v1528903608/261905_157517620988095_7963288_n.jpg"
-                        alt="avatar"
-                        style={{ width: '80%', height: 'auto' }}
-                    />
+    constructor(props){
+        super(props);
+        this.state = {fullName: "", email: "", message: ""};
+    }  
 
-                    <p className="contact-closing" style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Front-end web developer with a passion for design and problem-solving. Please contact me if you have any questions or comments. Aside from programming, I love to spend time with my wife, read and cook.</p>
-                    <hr></hr>
-                    <p className="skills" style={{ width: '90%', padding: '3px', margin: 'auto' }}>Programming: JavaScript ES6/ES2015, jQuery, React, JSON, SQLite3, Ruby on Rails, Sinatra, Flexbox, CSS Grid, HTML5 and CSS3
-                    </p>
+    handleFields = e => this.setState({ [e.target.name]: 'e.target.value' });
 
-                    <p className="skills" style={{ width: '90%', padding: '3px', margin: 'auto' }}>Software: Heroku, Firebase, Netlify, AWS, Hugo, Bootstrap, Git and Github
-                    </p>
-
-                    </Cell>
-                    <Cell col={6}>
-                        <h2>Contact Me</h2>
-                        <hr/>
-                        <div style={{ width: '100%', margin: 'auto' }} className="contact-list">
-                        <List>
-                            <ListItem>
-                                <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', color: 'white'}}>
-                                <i className="fa fa-phone-square" aria-hidden="true"/>
-                                858.232.3288
-                                </ListItemContent>
-                            </ListItem>
-                            <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
-                                <i className="fa fa-envelope" aria-hidden="true"/>
-                                <a href="mailto:angelr1076@gmail.com" rel="noopener noreferrer" target="_blank">Email</a>
-                                </ListItemContent>
-                            </ListItem>
-                            <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white' }}>
-                                <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                                <a href="https://www.linkedin.com/in/angelrodriguezlead/" rel="noopener noreferrer" target="_blank">linkedIn</a>
-                                </ListItemContent>
-                            </ListItem>
-                            <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
-                                <i className="fa fa-github" aria-hidden="true"/>
-                                <a href="https://github.com/angelr1076" rel="noopener noreferrer" target="_blank">Github</a>
-                                </ListItemContent>
-                            </ListItem>
-                            <ListItem>
-                                <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
-                                <i className="fa fa-sticky-note" aria-hidden="true"/>
-                                <a href="https://angelroddy.com" rel="noopener noreferrer" target="_blank">Blog</a>
-                                </ListItemContent>
-                            </ListItem>
-                        </List>
-                        </div>
-                    </Cell>
-                </Grid>
-            </div>
+    handleForm = e => {
+        axios.post(
+        "https://formcarry.com/s/e6BQqZAa68P", 
+        this.state, 
+        {headers: {"Accept": "application/json"}}
         )
+        .then(function (response) {
+            let successMessage = document.querySelector('.success-message');
+            successMessage.innerHTML = JSON.stringify(`${response.data.title} Your message was sent!`);
+        })
+        .catch(function (error) {
+            let successMessage = document.querySelector('.success-message');
+            successMessage.innerHTML = JSON.stringify(error);
+        });
+    
+        e.preventDefault();
+        this.setState({fullName: "", email: "", message: ""});
     }
-}
+
+        render() {
+            return (
+                <div className="contact-body">
+                    <Grid className="contact-grid">
+                        <Cell col={6}>
+                        <h2>Angel Rodriguez</h2>
+                        <img 
+                            src="https://res.cloudinary.com/angelrodriguez/image/upload/v1528903608/261905_157517620988095_7963288_n.jpg"
+                            alt="avatar"
+                            style={{ width: '80%', height: 'auto' }}
+                        />
+
+                        <p className="contact-closing" style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Front-end web developer with a passion for design and problem-solving. Please contact me if you have any questions or comments. Aside from programming, I love to spend time with my wife, read and cook.</p>
+                        <hr></hr>
+                        <p className="skills" style={{ width: '90%', padding: '3px', margin: 'auto' }}>Programming: JavaScript ES6/ES2015, jQuery, React, JSON, SQLite3, Ruby on Rails, Sinatra, Flexbox, CSS Grid, HTML5 and CSS3
+                        </p>
+                        <p className="skills" style={{ width: '90%', padding: '3px', margin: 'auto' }}>Software: Heroku, Firebase, Netlify, AWS, Hugo, Bootstrap, Git and Github
+                        </p>
+
+                        </Cell>
+                        <Cell col={6}>
+                            <h2>Contact Me</h2>
+                            <hr/>
+                            <div style={{ width: '100%' }} className="contact-list">
+                                <form onSubmit={this.handleForm}>
+                                    <Cell col={12}>
+                                        <Textfield type="text" id="fullName" name="fullName" className="full-name"
+                                        onChange={this.handleFields}
+                                        label="Full name"
+                                        floatingLabel
+                                        style={{width: '200px'}}
+                                        />
+                                    </Cell>
+                                    <Cell col={12}>
+                                    {/* Textfield with floating label */}
+                                        <Textfield type="email" id="email" name="email" className="email-address"
+                                        onChange={this.handleFields}
+                                        label="Email address"
+                                        floatingLabel
+                                        style={{width: '200px'}}
+                                        />
+                                    </Cell>
+                                    <Cell col={12}>
+                                        {/* Floating Multiline Textfield */}
+                                        <Textfield name="message" id="message" className="text-body"
+                                        onChange={this.handleFields}
+                                        label="Your message..."
+                                        rows={10}
+                                        style={{width: '400px'}}
+                                        />
+                                    </Cell>
+                                    <Button raised accent ripple type="submit">Send</Button>
+                                    <div className="success-message">
+                                        <label></label>
+                                    </div>
+                                </form>
+                            </div>
+                        </Cell>
+                    </Grid>
+                </div>
+            )
+        }
+    }
+    
 
 export default Contact;
