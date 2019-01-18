@@ -1,5 +1,8 @@
 * {
   font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -29,14 +32,18 @@ body {
 @media (min-width: 480px) and (max-width: 839px) {
 
   .mdl-cell--6-col, .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
-      width: calc(50% - 16px) !important;
+      /* width: calc(50% - 16px) !important; */
   }
 
 }
 
 @media all and (max-width: 700px) {
   .projects-grid {
-    display: block;
+    flex-direction: column;
+  }
+
+  .mdl-card {
+    width: auto!important;
   }
 }
 
