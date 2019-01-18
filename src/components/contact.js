@@ -9,8 +9,6 @@ class Contact extends Component {
         this.state = {fullName: "", email: "", message: ""};
     }  
 
-    handleFields = e => this.setState({ [e.target.name]: 'e.target.value' });
-
     handleForm = e => {
         axios.post(
         "https://formcarry.com/s/e6BQqZAa68P", 
@@ -29,6 +27,8 @@ class Contact extends Component {
         e.preventDefault();
         this.setState({fullName: "", email: "", message: ""});
     }
+
+    handleFields = e => this.setState({ [e.target.name]: e.target.value });
 
         render() {
             return (
@@ -55,36 +55,39 @@ class Contact extends Component {
                             <hr/>
                             <div style={{ width: '100%' }} className="contact-list">
                                 <form onSubmit={this.handleForm}>
-                                    <Cell col={12}>
-                                        <Textfield type="text" id="fullName" name="fullName" className="full-name"
-                                        onChange={this.handleFields}
-                                        label="Full name"
-                                        floatingLabel
-                                        style={{width: '200px'}}
-                                        />
-                                    </Cell>
-                                    <Cell col={12}>
-                                    {/* Textfield with floating label */}
-                                        <Textfield type="email" id="email" name="email" className="email-address"
-                                        onChange={this.handleFields}
-                                        label="Email address"
-                                        floatingLabel
-                                        style={{width: '200px'}}
-                                        />
-                                    </Cell>
-                                    <Cell col={12}>
-                                        {/* Floating Multiline Textfield */}
-                                        <Textfield name="message" id="message" className="text-body"
-                                        onChange={this.handleFields}
-                                        label="Your message..."
-                                        rows={10}
-                                        style={{width: '400px'}}
-                                        />
-                                    </Cell>
-                                    <Button raised accent ripple type="submit">Send</Button>
-                                    <div className="success-message">
-                                        <label></label>
-                                    </div>
+                                <Cell col={12}>
+                                <Textfield type="text" id="fullName" name="fullName" className="full-name"
+                                  onChange={this.handleFields}
+                                  value={this.state.fullName}
+                                  label="Full name"
+                                  floatingLabel
+                                  style={{ width: '200px' }}
+                                />
+                              </Cell>
+                              <Cell col={12}>
+                                {/* Textfield with floating label */}
+                                <Textfield type="email" id="email" name="email" className="email-address"
+                                  onChange={this.handleFields}
+                                  value={this.state.email}
+                                  label="Email address"
+                                  floatingLabel
+                                  style={{ width: '200px' }}
+                                />
+                              </Cell>
+                              <Cell col={12}>
+                                {/* Floating Multiline Textfield */}
+                                <Textfield name="message" id="message" className="text-body"
+                                  onChange={this.handleFields}
+                                  value={this.state.message}
+                                  label="Your message..."
+                                  rows={10}
+                                  style={{ width: '400px' }}
+                                />
+                              </Cell>
+                                <Button raised accent ripple type="submit">Send</Button>
+                                <div className="success-message">
+                                    <label></label>
+                                </div>
                                 </form>
                             </div>
                         </Cell>
@@ -93,6 +96,5 @@ class Contact extends Component {
             )
         }
     }
-    
 
 export default Contact;
