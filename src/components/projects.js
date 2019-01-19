@@ -45,7 +45,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
                        <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/sudzzz.png) center / cover' }}></CardTitle>
                        <CardText style={{ color: 'black', fontSize: '20px' }}>Sudzzz</CardText>
-                       <CardText>Beer list app written in JavaScript that allows users to create a digital beer list. The user can also select all or some beer on the list and them based on checked selections.</CardText>
+                       <CardText>Beer list app written in JavaScript that allows users to create a digital beer list. The user can also select all or some beer on the list and adjust them based on checked selections.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/sudzzz">Github</a></Button>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://tart-condition.surge.sh/">Live Demo</a></Button>
@@ -59,7 +59,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
                        <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543806642/Screen_Shot_2018-12-02_at_10.09.05_PM.png) center / cover' }}></CardTitle>
                        <CardText style={{ color: 'black', fontSize: '20px' }}>Word-Spin</CardText>
-                       <CardText>The app generates random JavaScript terminology. JavaScript generates a hint as to what the word is, how many letters are in the word, the number of guesses remaining, letters already used and how many rounds the user won.</CardText>
+                       <CardText>The app generates random JavaScript terminology. Functions generate a hint as to what the word is, how many letters are in the word, the number of guesses remaining, letters already used and how many rounds the user won.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/word-spin">Github</a></Button>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/word-spin/">Live Demo</a></Button>
@@ -226,7 +226,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
                         <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/sudzzz.png) center / cover' }}></CardTitle>
                         <CardText style={{ color: 'black', fontSize: '20px' }}>Sudzzz</CardText>
-                        <CardText>Beer list app written in JavaScript that allows users to create a digital beer list. The user can also select all or some beer on the list and them based on checked selections.</CardText>
+                        <CardText>Beer list app written in JavaScript that allows users to create a digital beer list. The user can also select all or some beer on the list and adjust them based on checked selections.</CardText>
                         <CardActions border>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/sudzzz">Github</a></Button>
                         <Button colored><a rel="noopener noreferrer" target="_blank" href="https://tart-condition.surge.sh/">Live Demo</a></Button>
@@ -240,7 +240,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ height: '400px', minWidth: '450', margin: 'auto', marginBottom: '20px' }}>
                        <CardTitle style={{ color: 'yellow', minHeight: '176px', background: 'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543806642/Screen_Shot_2018-12-02_at_10.09.05_PM.png) center / cover' }}></CardTitle>
                        <CardText style={{ color: 'black', fontSize: '20px' }}>Word-Spin</CardText>
-                       <CardText>The app generates random JavaScript terminology. JavaScript generates a hint as to what the word is, how many letters are in the word, the number of guesses remaining, letters already used and how many rounds the user won.</CardText>
+                       <CardText>The app generates random JavaScript terminology. Functions generate a hint as to what the word is, how many letters are in the word, the number of guesses remaining, letters already used and how many rounds the user won.</CardText>
                        <CardActions border>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://github.com/angelr1076/word-spin">Github</a></Button>
                        <Button colored><a rel="noopener noreferrer" target="_blank" href="https://angelr1076.github.io/word-spin/">Live Demo</a></Button>

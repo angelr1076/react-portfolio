@@ -39,7 +39,7 @@ body {
     flex-direction: column;
   }
 
-  .mdl-card {
+  /* .mdl-card {
     width: auto!important;
     height: 450px!important;
   }
@@ -51,10 +51,10 @@ body {
     overflow: hidden;
     padding: 16px 16px;
     width: 90%;
-}
+} */
 }
 
-@media (min-width: 700px) and (max-width: 770px) {
+/* @media (min-width: 700px) and (max-width: 770px) {
 
    .mdl-grid {
     flex-wrap: nowrap !important;
@@ -63,33 +63,32 @@ body {
   .mdl-list__item {
     overflow: visible !important;
   }
-}
+} */
 
 @media all and (max-width: 800px) {
 
-  .social-links {
+  /* .social-links {
     justify-content: center;
     align-items: center;
     align-self: center;
-  }
+  } */
   
+  /* Landing page bio margin */
   .landing-bio p {
     width: 90%!important;
   }
 
+  /* Projects menu tab */
   .mdl-tabs__tab {
     padding: 0 5px 0 5px !important;
   }
 
-  .mdl-list__item .mdl-list__item-primary-content {
-    font-size: 20px !important;
-    margin: 5px;
-    padding: 5px;
+  .mdl-tabs__tab {
+    /* font-size: 20px !important; */
+    /* margin: 9px; */
+    padding: 10px!important;
     text-align: justify;
+    text-transform: none!important;
   }
 
-  .resume-template {
-    width: 100%;
-    height: 100%;
-  }
 }
