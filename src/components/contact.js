@@ -84,7 +84,7 @@ class Contact extends Component {
                                   style={{ width: '400px' }}
                                 />
                               </Cell>
-                                <Button raised accent ripple type="submit">Send</Button>
+                                <Button raised colored ripple type="submit">Send</Button>
                                 <div className="success-message">
                                     <label></label>
                                 </div>

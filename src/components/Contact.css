@@ -7,7 +7,7 @@
     justify-content: center;
     padding-top: 1em;
     overflow: scroll;
-    background: rgb(22, 22, 22);
+    /* background: rgb(22, 22, 22); */
   }
   
 .contact-grid {
@@ -31,7 +31,8 @@
   }
   
 .contact-grid hr {
-    border-top: 5px solid rgb(48, 43, 43);
+    border: none;
+    background: rgb(214, 206, 206)!important;
     width: 80%;
     margin: auto;
   }
@@ -46,15 +47,9 @@
     color: rgb(48, 43, 43);
   }
   
-.contact-list a {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: rgb(48, 43, 43) !important;
-  }
-  
 .contact-grid hr, .contact-closing {
-    padding: 5px 0 5px 0;
+    padding: 3px 0 3px 0;
+    border-radius: 3px;
   }
   
 .full-name {
@@ -67,7 +62,7 @@
 
 .mdl-textfield__input {
     border-bottom: 1px solid rgba(240, 231, 231, 0.918)!important;
-    background: rgb(66, 65, 65)!important;
+    /* background: rgb(66, 65, 65)!important; */
     font-size: 1.3rem!important;
     color: rgb(255, 255, 255)!important;
     cursor: pointer;

@@ -34,45 +34,8 @@ body {
 
 }
 
-@media all and (max-width: 700px) {
-  .projects-grid {
-    flex-direction: column;
-  }
-
-  /* .mdl-card {
-    width: auto!important;
-    height: 450px!important;
-  }
-
-  mdl-card__supporting-text {
-    color: rgba(0,0,0, 0.54);
-    font-size: 15px;
-    line-height: 18px;
-    overflow: hidden;
-    padding: 16px 16px;
-    width: 90%;
-} */
-}
-
-/* @media (min-width: 700px) and (max-width: 770px) {
-
-   .mdl-grid {
-    flex-wrap: nowrap !important;
-  }
-
-  .mdl-list__item {
-    overflow: visible !important;
-  }
-} */
-
 @media all and (max-width: 800px) {
 
-  /* .social-links {
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-  } */
-  
   /* Landing page bio margin */
   .landing-bio p {
     width: 90%!important;
@@ -84,11 +47,24 @@ body {
   }
 
   .mdl-tabs__tab {
-    /* font-size: 20px !important; */
-    /* margin: 9px; */
     padding: 10px!important;
     text-align: justify;
     text-transform: none!important;
   }
 
+}
+
+@media all and (max-width: 700px) {
+  .projects-grid {
+    flex-direction: column;
+  }
+
+}
+
+@media all and (max-width: 350px) {
+  .mdl-card {
+    width: auto!important;
+    height: 450px!important;
+  }
+  
 }
