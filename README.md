@@ -9,5 +9,5 @@ This is my first attempt at fleshing out a full React app. This is redesigned fr
 ![Settings Window](https://res.cloudinary.com/angelrodriguez/image/upload/v1548035107/projects-port.png)
 
 
-![Settings Window](https://res.cloudinary.com/angelrodriguez/image/upload/v1548035108/contact-port.png)
+![Settings Window](https://res.cloudinary.com/angelrodriguez/image/upload/v1548212045/contact-port.png)
 
