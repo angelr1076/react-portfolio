@@ -7,7 +7,6 @@
     justify-content: center;
     padding-top: 1em;
     overflow: scroll;
-    /* background: rgb(22, 22, 22); */
   }
   
 .contact-grid {
@@ -18,13 +17,12 @@
   }
   
 .contact-grid h2 {
-    font-family: 'Anton', sans-serif;
-    color: rgb(224, 224, 212);
-    letter-spacing: 2px;
+    font-size: 4.1rem;
+    color: rgb(10, 10, 9);
+    font-weight: 900;
   }
   
 .contact-grid p {
-    font-family: 'Oxygen', sans-serif;
     font-weight: bold;
     color: rgb(230, 220, 220);
     letter-spacing: .5px;
@@ -35,16 +33,6 @@
     background: rgb(214, 206, 206)!important;
     width: 80%;
     margin: auto;
-  }
-
-.contact-list {
-    margin-top: 1.2rem;
-}
-
-.contact-list i {
-    font-size: 66px;
-    padding-right: 5rem;
-    color: rgb(48, 43, 43);
   }
   
 .contact-grid hr, .contact-closing {
@@ -65,13 +53,9 @@
     font-size: 1.3rem!important;
     color: rgb(32, 31, 31)!important;
     cursor: pointer;
-    background: rgb(255, 255, 255)!important;
+    background: rgb(230, 225, 225)!important;
     border-radius: 3px;
 }
-
-/* .contact-list {
-    margin-left: 10px!important;
-} */
 
 label {
     color: rgb(83, 78, 78)!important;
