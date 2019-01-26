@@ -61,13 +61,17 @@
 }
 
 .mdl-textfield__input {
-    border: 2px solid rgba(224, 213, 213, 0.918)!important;
+    margin-left: -0.8rem!important;
     font-size: 1.3rem!important;
     color: rgb(32, 31, 31)!important;
     cursor: pointer;
-    background: white!important;
+    background: rgb(255, 255, 255)!important;
     border-radius: 3px;
 }
+
+/* .contact-list {
+    margin-left: 10px!important;
+} */
 
 label {
     color: rgb(83, 78, 78)!important;
