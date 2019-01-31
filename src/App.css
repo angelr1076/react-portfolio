@@ -27,14 +27,6 @@ body {
 
 }
 
-@media (min-width: 480px) and (max-width: 839px) {
-
-  .mdl-cell--6-col, .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
-      width: calc(50% - 16px) !important;
-  }
-
-}
-
 @media all and (max-width: 800px) {
 
   /* Landing page bio margin */
@@ -52,6 +44,13 @@ body {
     text-align: justify;
     text-transform: none!important;
   }
+}
+
+@media (min-width: 480px) and (max-width: 839px) {
+
+  .mdl-cell--6-col, .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+      width: calc(50% - 16px) !important;
+  }
 
 }
 
@@ -60,6 +59,12 @@ body {
     flex-direction: column;
   }
 
+}
+
+@media (max-width: 479px) {
+  .mdl-grid {
+    padding: 0!important;
+  }
 }
 
 @media all and (max-width: 350px) {
