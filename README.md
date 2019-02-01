@@ -1,6 +1,6 @@
 This is redesigned from a HUGO port I built months ago (angelroddy.com) and rebuilt in React. The site is hosted with Firebase uses react-mdl for some styling and is mobile-responsive.
 
-![Settings Window](./images/home.png)
+![Settings Window](../images/home.png)
 
 
 ![Settings Window](https://res.cloudinary.com/angelrodriguez/image/upload/v1548035107/resume-port.png)
