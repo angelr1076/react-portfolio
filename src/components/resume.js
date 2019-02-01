@@ -6,9 +6,9 @@ const Resume = () => {
     <div>
       <div className='resume-template'>
         <img
-          src='https://res.cloudinary.com/angelrodriguez/image/upload/v1548771100/rodriguez_angel_resume.png'
+          src='https://res.cloudinary.com/angelrodriguez/image/upload/v1549040558/resume_image.png'
           alt='resume'
-          style={{ width: '60%', height: '70%' }}
+          style={{ width: '60%', paddingTop: '2rem' }}
         />
       </div>
     </div>
