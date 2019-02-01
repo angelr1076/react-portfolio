@@ -7,8 +7,6 @@ body {
    background-image: url("./images/texture.svg"),
    linear-gradient(180deg,#9e1331, #be3855);
    background-size: 400px, auto;
-   /* min-height: calc(100vh - 80px);
-   margin: 40px; */
    background-attachment: fixed;
 }
 

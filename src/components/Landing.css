@@ -28,6 +28,10 @@
     color: rgb(247, 233, 233);
     font-size: 5rem;
     padding: 8px;
+    -webkit-transition: color 500ms ease;
+    -moz-transition: color 500ms ease;
+    -o-transition: color 500ms ease;
+    transition: color 500ms ease;
   }
   
   .social-links i:hover {
