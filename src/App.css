@@ -1,13 +1,14 @@
 * {
-  font-family: 'Noto Sans', sans-serif;
+  
 }
 
 body {
    /* credit for body and navbar svgs from Steve Shroger from heropatterns.com */
    background-image: url("./images/texture.svg"),
-   linear-gradient(180deg,#9e1331, #be3855);
+   linear-gradient(180deg, #99282d, #fa1420);
    background-size: 400px, auto;
    background-attachment: fixed;
+   font-family: 'Noto Sans', sans-serif;
 }
 
 .header-color {
