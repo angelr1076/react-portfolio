@@ -1,15 +1,15 @@
 This is redesigned from a HUGO port I built months ago (angelroddy.com) and rebuilt in React. The site is hosted with Firebase uses react-mdl for some styling and is mobile-responsive.
 
-![Settings Window](https://res.cloudinary.com/angelrodriguez/image/upload/v1548035107/home-port.png)
+![Settings Window](./src/images/home.png)
 
 
-![Settings Window](https://res.cloudinary.com/angelrodriguez/image/upload/v1548035107/resume-port.png)
+![Settings Window](./src/images/resume.png)
 
 
-![Settings Window](https://res.cloudinary.com/angelrodriguez/image/upload/v1548035107/projects-port.png)
+![Settings Window](./src/images/portfolio.png)
 
 
-![Settings Window](https://res.cloudinary.com/angelrodriguez/image/upload/v1548212045/contact-port.png)
+![Settings Window](./src/images/contact.png)
 
 If you'd like to run the project locally, please clone it and follow the instructions below:
 
