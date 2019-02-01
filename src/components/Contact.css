@@ -18,7 +18,7 @@
   
 .contact-grid h2 {
     font-size: 4.1rem;
-    color: rgb(10, 10, 9);
+    color: rgb(199, 199, 42);
     font-weight: 900;
   }
   
@@ -30,12 +30,13 @@
   
 .contact-grid hr {
     border: none;
-    background: rgb(214, 206, 206)!important;
-    width: 80%;
+    background: rgba(214, 206, 206, 0.9);
+    width: 90%;
+    height: 0.2rem;
     margin: auto;
   }
   
-.contact-grid hr, .contact-closing {
+.contact-closing {
     padding: 3px 0 3px 0;
     border-radius: 3px;
   }
@@ -55,10 +56,6 @@
     cursor: pointer;
     background: rgb(230, 225, 225)!important;
     border-radius: 3px;
-}
-
-label {
-    color: rgb(83, 78, 78)!important;
 }
 
 .success-message {

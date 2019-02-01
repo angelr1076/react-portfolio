@@ -1,22 +1,26 @@
 * {
-  font-family: 'Poppins', sans-serif;
-
+  font-family: 'Noto Sans', sans-serif;
 }
 
 body {
-  background: #FF416C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* credit for svg from heropatterns.com courtesy of Steve Schoger */
+  background-image: url("./images/texture.svg"),
+    linear-gradient(180deg, #b42947, #f10739);
+  min-height: calc(100vh - 80px);
+  margin: 40px;
+  background-size: 30rem, auto;
 }
 
 .header-color {
   background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, rgb(81, 143, 148), rgb(31, 113, 119), rgb(1, 80, 100));  /* Chrome 10-25, Safari 5.1-6 */
+  /* Bricks */
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+  linear-gradient(to right, rgb(81, 143, 148), rgb(31, 113, 119), rgb(1, 80, 100)); 
 }
 
 .mdl-navigation__link:hover {
-  background-color: rgb(18, 18, 121);
+  background-color: rgba(9, 118, 145, 0.7);
 }
 
 @media all and (max-width: 1025px) {

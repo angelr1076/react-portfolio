@@ -37,32 +37,48 @@ class Contact extends Component {
         <Grid className='contact-grid'>
           <Cell col={6}>
             <h2>Angel Rodriguez</h2>
+            <hr />
             <img
               src='https://res.cloudinary.com/angelrodriguez/image/upload/v1528903608/261905_157517620988095_7963288_n.jpg'
               alt='avatar'
-              style={{ width: '80%', height: 'auto' }}
+              style={{ width: '80%', height: 'auto', padding: '1rem 0 1rem 0' }}
             />
-
+            <hr />
             <p
               className='contact-closing'
-              style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
+              style={{ width: '75%', margin: 'auto', paddingTop: '1rem' }}>
               Front-end web developer with a passion for design and
               problem-solving. Please contact me if you have any questions or
               comments. Aside from programming, I love to spend time with my
               wife, read and cook.
             </p>
-            <hr />
+
             <p
               className='skills'
               style={{ width: '90%', padding: '3px', margin: 'auto' }}>
-              Programming: JavaScript ES6/ES2015, jQuery, React, JSON, SQLite3,
-              Ruby on Rails, Sinatra, Flexbox, CSS Grid, HTML5 and CSS3
+              <label
+                className='tech'
+                style={{
+                  color: 'rgb(226, 226, 19)',
+                  textTransform: 'uppercase'
+                }}>
+                Programming:
+              </label>{' '}
+              JavaScript ES6/ES2015, jQuery, React, JSON, SQLite3, Ruby on
+              Rails, Sinatra, Flexbox, CSS Grid, HTML5 and CSS3
             </p>
             <p
               className='skills'
               style={{ width: '90%', padding: '3px', margin: 'auto' }}>
-              Software: Heroku, Firebase, Netlify, AWS, Hugo, Bootstrap, Git and
-              Github
+              <label
+                className='tech'
+                style={{
+                  color: 'rgb(226, 226, 19)',
+                  textTransform: 'uppercase'
+                }}>
+                Software:
+              </label>{' '}
+              Heroku, Firebase, Netlify, AWS, Hugo, Bootstrap, Git and Github
             </p>
           </Cell>
           <Cell col={6}>
