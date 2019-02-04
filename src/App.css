@@ -78,6 +78,10 @@ body {
     flex-direction: column;
   }
 
+  .resume-template {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 479px) {
