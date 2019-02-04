@@ -50,14 +50,10 @@ class Landing extends Component {
               <i className='devicon-bootstrap-plain-wordmark' />
               <i className='devicon-html5-plain-wordmark' />
               <i className='devicon-css3-plain-wordmark' />
-              <i className='devicon-sass-original' />
               <i className='devicon-visualstudio-plain' />
               <i className='devicon-nodejs-plain' />
-              <i className='devicon-amazonwebservices-plain' />
               <i className='devicon-heroku-original-wordmark' />
               <i className='devicon-github-plain-wordmark' />
-              <i className='devicon-git-plain' />
-              <i className='devicon-gitlab-plain-wordmark' />
             </div>
           </Cell>
 

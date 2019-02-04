@@ -84,7 +84,7 @@ body {
 
 }
 
-@media (max-width: 479px) {
+@media all and (max-width: 479px) {
   .mdl-grid {
     padding: 0!important;
   }
