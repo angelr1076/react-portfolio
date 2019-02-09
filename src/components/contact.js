@@ -22,7 +22,7 @@ class Contact extends Component {
       })
       .catch(function (error) {
         let successMessage = document.querySelector('.success-message')
-        successMessage.innerHTML = JSON.stringify(error)
+        successMessage.innerHTML = "Oops, something went wrong. Please try again."
       })
 
     e.preventDefault()
