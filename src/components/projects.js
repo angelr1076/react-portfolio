@@ -385,7 +385,7 @@ class Projects extends Component {
                     <Tab style={{ color: 'white' }}>All</Tab>
                     <Tab style={{ color: 'white' }}>React</Tab>
                     <Tab style={{ color: 'white' }}>JavaScript</Tab>
-                    <Tab style={{ color: 'white' }}>Rails</Tab>
+                    <Tab style={{ color: 'white' }}>ROR</Tab>
                     <Tab style={{ color: 'white' }}>Sinatra</Tab>
                 </Tabs>
                 <Grid>

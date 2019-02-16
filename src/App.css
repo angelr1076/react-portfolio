@@ -1,9 +1,5 @@
-* {
-  
-}
-
 body {
-   /* credit for body and navbar svgs from Steve Shroger from heropatterns.com */
+   /* credit for body svg from Steve Shroger from heropatterns.com */
    background-image: url("./images/texture.svg"),
    linear-gradient(180deg, #99282d, #fa1420);
    background-size: 400px, auto;
