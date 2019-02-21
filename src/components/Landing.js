@@ -7,7 +7,7 @@ class Landing extends Component {
     return (
       <div className='landing-body'>
         <Grid className='landing-grid'>
-          <Cell col={6} xs={12} sm={6}>
+          <Cell col={6} tablet={12}>
             <div className='banner-text'>
               <h1 className='name-header'>Angel Rodriguez</h1>
               <h3 className='dev-header'>Front-End Web Developer</h3>
@@ -50,14 +50,14 @@ class Landing extends Component {
               <i className='devicon-bootstrap-plain-wordmark' />
               <i className='devicon-html5-plain-wordmark' />
               <i className='devicon-css3-plain-wordmark' />
-              <i className='devicon-visualstudio-plain' />
-              <i className='devicon-nodejs-plain' />
+              <i className='devicon-gitlab-plain-wordmark' />
+              <i className='devicon-visualstudio-plain-wordmark' />
               <i className='devicon-heroku-original-wordmark' />
               <i className='devicon-github-plain-wordmark' />
             </div>
           </Cell>
 
-          <Cell col={6} xs={12} sm={6}>
+          <Cell col={6} tablet={12}>
             <div className='landing-bio'>
               <p style={{ width: '75%', margin: '5%' }}>
                 Hi, and thanks for checking out my site! I'm a web developer

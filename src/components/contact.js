@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import { Grid, Cell, Textfield, Button } from 'react-mdl'
-import './Contact.css'
-import axios from 'axios'
+import React, { Component } from 'react';
+import { Grid, Cell, Textfield, Button } from 'react-mdl';
+import './Contact.css';
+import axios from 'axios';
 
 class Contact extends Component {
   constructor (props) {
@@ -22,7 +22,8 @@ class Contact extends Component {
       })
       .catch(function (error) {
         let successMessage = document.querySelector('.success-message')
-        successMessage.innerHTML = "Oops, something went wrong. Please try again."
+        successMessage.innerHTML =
+          'Oops, something went wrong. Please try again.'
       })
 
     e.preventDefault()

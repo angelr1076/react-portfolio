@@ -1,11 +1,11 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Switch, Route, withRouter } from 'react-router-dom'
-import { TransitionGroup, CSSTransition } from 'react-transition-group'
-import LandingPage from './Landing'
-import Contact from './Contact'
-import Projects from './Projects'
-import Resume from './Resume'
+import React from 'react';
+import styled from 'styled-components';
+import { Switch, Route, withRouter } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import LandingPage from './Landing';
+import Contact from './Contact';
+import Projects from './Projects';
+import Resume from './Resume';
 
 function Main ({ location }) {
   return (
