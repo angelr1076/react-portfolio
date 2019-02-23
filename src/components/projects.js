@@ -69,51 +69,6 @@ class Projects extends Component {
               <CardMenu style={{ color: '#fff' }} />
             </Card>
           </Cell>
-          {/* Project 1.1 */}
-          <Cell col={6}>
-            <Card
-              shadow={5}
-              style={{
-                height: '400px',
-                minWidth: '450',
-                margin: 'auto',
-                marginBottom: '20px'
-              }}>
-              <CardTitle
-                style={{
-                  color: 'yellow',
-                  minHeight: '176px',
-                  background:
-                    'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1550766358/rambo-vue-js.png) center / cover'
-                }}
-              />
-              <CardText style={{ color: 'black', fontSize: '20px' }}>
-                Lock-n-Load
-              </CardText>
-              <CardText>
-                Strategy game built with Vue.js allowing players to battle back-and-forth. Uses Vue's reactivity via directives and binding.  
-              </CardText>
-              <CardActions border style={{ margin: '10px' }}>
-                <Button colored>
-                  <a
-                    rel='noopener noreferrer'
-                    target='_blank'
-                    href='https://github.com/angelr1076/vue-js_lock-n-load'>
-                    Github
-                  </a>
-                </Button>
-                <Button colored>
-                  <a
-                    rel='noopener noreferrer'
-                    target='_blank'
-                    href='https://natural-jellyfish.surge.sh/'>
-                    Live Demo
-                  </a>
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: '#fff' }} />
-            </Card>
-          </Cell>
           {/* Project 1.2 */}
           <Cell col={6}>
             <Card
@@ -703,51 +658,6 @@ class Projects extends Component {
               <CardMenu style={{ color: '#fff' }} />
             </Card>
           </Cell>
-          {/* Project 1.1 */}
-          <Cell col={6}>
-            <Card
-              shadow={5}
-              style={{
-                height: '400px',
-                minWidth: '450',
-                margin: 'auto',
-                marginBottom: '20px'
-              }}>
-              <CardTitle
-                style={{
-                  color: 'yellow',
-                  minHeight: '176px',
-                  background:
-                    'url(https://res.cloudinary.com/angelrodriguez/image/upload/v1550766358/rambo-vue-js.png) center / cover'
-                }}
-              />
-              <CardText style={{ color: 'black', fontSize: '20px' }}>
-                Lock-n-Load
-              </CardText>
-              <CardText>
-                Strategy game built with Vue.js allowing players to battle back-and-forth. Uses Vue's reactivity via directives and binding.  
-              </CardText>
-              <CardActions border style={{ margin: '10px' }}>
-                <Button colored>
-                  <a
-                    rel='noopener noreferrer'
-                    target='_blank'
-                    href='https://github.com/angelr1076/vue-js_lock-n-load'>
-                    Github
-                  </a>
-                </Button>
-                <Button colored>
-                  <a
-                    rel='noopener noreferrer'
-                    target='_blank'
-                    href='https://natural-jellyfish.surge.sh/'>
-                    Live Demo
-                  </a>
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: '#fff' }} />
-            </Card>
-          </Cell>
         </div>
       )
     } else if (this.state.activeTab === 2) {
@@ -1313,7 +1223,7 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple>
           <Tab style={{ color: 'white' }}>All</Tab>
-          <Tab style={{ color: 'white' }}>React/Vue</Tab>
+          <Tab style={{ color: 'white' }}>React</Tab>
           <Tab style={{ color: 'white' }}>JavaScript</Tab>
           <Tab style={{ color: 'white' }}>ROR</Tab>
           <Tab style={{ color: 'white' }}>Sinatra</Tab>
