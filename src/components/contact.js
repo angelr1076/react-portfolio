@@ -1,12 +1,18 @@
-import React, { Component } from 'react';
-import { Grid, Cell, Textfield, Button } from 'react-mdl';
-import './Contact.css';
-import axios from 'axios';
+import React, { Component } from 'react'
+import { Grid, Cell, Textfield, Button } from 'react-mdl'
+import './Contact.css'
+import axios from 'axios'
 
 class Contact extends Component {
   constructor (props) {
     super(props)
-    this.state = { fullName: '', email: '', message: '' }
+    this.state = {
+      fullName: '',
+      email: '',
+      message: ''
+    }
+    this.handleForm = this.handleForm.bind(this)
+    this.handleFields = this.handleFields.bind(this)
   }
 
   handleForm = e => {
