@@ -115,7 +115,7 @@ class Contact extends Component {
                     onChange={this.handleFields}
                     value={this.state.email}
                     label='Email address'
-                    floatingLabel
+                    floatingLabel 
                     style={{ width: '200px' }}
                   />
                 </Cell>

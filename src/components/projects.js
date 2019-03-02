@@ -1110,11 +1110,6 @@ class Projects extends Component {
               <CardMenu style={{ color: '#fff' }} />
             </Card>
           </Cell>
-        </div>
-      )
-    } else if (this.state.activeTab === 4) {
-      return (
-        <div className='projects-grid'>
           {/* Project 9 */}
           <Cell col={6}>
             <Card
@@ -1225,8 +1220,7 @@ class Projects extends Component {
           <Tab style={{ color: 'white' }}>All</Tab>
           <Tab style={{ color: 'white' }}>React</Tab>
           <Tab style={{ color: 'white' }}>JavaScript</Tab>
-          <Tab style={{ color: 'white' }}>ROR</Tab>
-          <Tab style={{ color: 'white' }}>Sinatra</Tab>
+          <Tab style={{ color: 'white' }}>Ruby</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>
