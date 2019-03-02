@@ -11,8 +11,6 @@ class Contact extends Component {
       email: '',
       message: ''
     }
-    this.handleForm = this.handleForm.bind(this)
-    this.handleFields = this.handleFields.bind(this)
   }
 
   handleForm = e => {
@@ -115,7 +113,7 @@ class Contact extends Component {
                     onChange={this.handleFields}
                     value={this.state.email}
                     label='Email address'
-                    floatingLabel 
+                    floatingLabel
                     style={{ width: '200px' }}
                   />
                 </Cell>
