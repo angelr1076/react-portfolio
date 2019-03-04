@@ -1,0 +1,79 @@
+/* Landing Page */
+.banner-text h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: rgb(199, 199, 42);
+    text-align: center;
+  }
+  
+  .banner-text hr {
+    border-top: 5px dotted rgb(53, 50, 50);
+    width: 50%;
+    margin: auto;
+  }
+  
+  .banner-text p {
+    color: rgb(247, 233, 233);
+    font-size: 20px;
+    padding: 1em;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .social-links i {
+    color: rgb(247, 233, 233);
+    font-size: 5rem;
+    padding: 8px;
+    -webkit-transition: color 500ms ease;
+    -moz-transition: color 500ms ease;
+    -o-transition: color 500ms ease;
+    transition: color 500ms ease;
+  }
+  
+  .social-links i:hover {
+    color: rgb(179, 179, 192);
+  }
+  
+  .devicons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+  }
+  
+  .devicons i {
+    color: rgb(27, 28, 29);
+    font-size: 4rem;
+    padding: 8px;
+  }
+  
+  .landing-body {
+    color: rgb(243, 237, 237);
+    text-align: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .landing-bio p {
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 0px;
+    text-align: justify;
+    color: rgb(243, 235, 235);
+  }
+  
+  .landing-grid hr {
+    border-top: 5px solid rgb(216, 207, 207);
+    width: 70%;
+    margin: auto;
+  }
+  
