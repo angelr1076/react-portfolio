@@ -8,7 +8,7 @@ const Resume = () => {
         <img
           src="https://res.cloudinary.com/angelrodriguez/image/upload/v1549040558/resume_image.png"
           alt="resume"
-          style={{ width: "60%", paddingTop: "2.2 rem" }}
+          style={{ width: "60%", paddingTop: "2rem" }}
         />
       </div>
     </div>
