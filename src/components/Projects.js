@@ -28,7 +28,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -36,15 +36,15 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1541199159/Screen_Shot_2018-11-02_at_6.51.56_PM.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1541199159/Screen_Shot_2018-11-02_at_6.51.56_PM.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
                 Portfolio Site
               </CardText>
               <CardText>
-                Portfolio site built in React showcasing all projects written in
-                React, JavaScript, Rails and Sinatra.
+                Portfolio site built in React showcasing all projects
+                written in React, JavaScript, Rails and Sinatra.
               </CardText>
               <CardActions border style={{ margin: "10px" }}>
                 <Button colored>
@@ -69,6 +69,107 @@ class Projects extends Component {
               <CardMenu style={{ color: "#fff" }} />
             </Card>
           </Cell>
+          {/* Project 1.1 */}
+          <Cell col={6}>
+            <Card
+              shadow={5}
+              style={{
+                height: "400px",
+                minWidth: "450",
+                margin: "auto",
+                marginBottom: "20px",
+              }}
+            >
+              <CardTitle
+                style={{
+                  color: "yellow",
+                  minHeight: "176px",
+                  background:
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1552339527/rambo.png) center / cover",
+                }}
+              />
+              <CardText style={{ color: "black", fontSize: "20px" }}>
+                Lock-n-Load
+              </CardText>
+              <CardText>
+                Strategy app built with Vue.js that uses Vue directives
+                and bindings for functionality.
+              </CardText>
+              <CardActions border style={{ margin: "10px" }}>
+                <Button colored>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/angelr1076/vue-js_lock-n-load"
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://natural-jellyfish.surge.sh/"
+                  >
+                    Live Demo
+                  </a>
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }} />
+            </Card>
+          </Cell>
+          {/* Project 3 */}
+          <Cell col={6}>
+            <Card
+              shadow={5}
+              style={{
+                height: "400px",
+                minWidth: "450",
+                margin: "auto",
+                marginBottom: "20px",
+              }}
+            >
+              <CardTitle
+                style={{
+                  color: "black",
+                  minHeight: "176px",
+                  background:
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover",
+                }}
+              />
+              <CardText style={{ color: "black", fontSize: "20px" }}>
+                Map-Attack
+              </CardText>
+              <CardText>
+                The app uses the REST Countries API and Google Maps API to
+                allow the user to view questions at random. The REST API
+                country generator function passes the param to the Google
+                Maps function and plots the given country onto the map for
+                viewing.
+              </CardText>
+              <CardActions border>
+                <Button colored>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/angelr1076/"
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://map-attack.netlify.com/"
+                  >
+                    Live Demo
+                  </a>
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }} />
+            </Card>
+          </Cell>
           {/* Project 1.2 */}
           <Cell col={6}>
             <Card
@@ -77,7 +178,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -85,7 +186,7 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547660216/screecap1.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547660216/screecap1.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
@@ -127,7 +228,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -135,16 +236,17 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/sudzzz.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/sudzzz.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
                 Sudzzz
               </CardText>
               <CardText>
-                Beer list app written in JavaScript that allows users to create
-                a digital beer list. The user can also select all or some beer
-                on the list and adjust them based on checked selections.
+                Beer list app written in JavaScript that allows users to
+                create a digital beer list. The user can also select all
+                or some beer on the list and adjust them based on checked
+                selections.
               </CardText>
               <CardActions border>
                 <Button colored>
@@ -177,7 +279,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -185,7 +287,7 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543806642/Screen_Shot_2018-12-02_at_10.09.05_PM.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543806642/Screen_Shot_2018-12-02_at_10.09.05_PM.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
@@ -193,9 +295,9 @@ class Projects extends Component {
               </CardText>
               <CardText>
                 The app generates random JavaScript terminology. Functions
-                generate a hint as to what the word is, how many letters are in
-                the word, the number of guesses remaining, letters already used
-                and how many rounds the user won.
+                generate a hint as to what the word is, how many letters
+                are in the word, the number of guesses remaining, letters
+                already used and how many rounds the user won.
               </CardText>
               <CardActions border>
                 <Button colored>
@@ -220,156 +322,6 @@ class Projects extends Component {
               <CardMenu style={{ color: "#fff" }} />
             </Card>
           </Cell>
-          {/* Project 3 */}
-          <Cell col={6}>
-            <Card
-              shadow={5}
-              style={{
-                height: "400px",
-                minWidth: "450",
-                margin: "auto",
-                marginBottom: "20px"
-              }}
-            >
-              <CardTitle
-                style={{
-                  color: "black",
-                  minHeight: "176px",
-                  background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover"
-                }}
-              />
-              <CardText style={{ color: "black", fontSize: "20px" }}>
-                Map-Attack
-              </CardText>
-              <CardText>
-                The app uses the REST Countries API and Google Maps API to allow
-                the user to view questions at random. The REST API country
-                generator function passes the param to the Google Maps function
-                and plots the given country onto the map for viewing.
-              </CardText>
-              <CardActions border>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://github.com/angelr1076/"
-                  >
-                    Github
-                  </a>
-                </Button>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://map-attack.netlify.com/"
-                  >
-                    Live Demo
-                  </a>
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }} />
-            </Card>
-          </Cell>
-          {/* Project 4 */}
-          <Cell col={6}>
-            <Card
-              shadow={5}
-              style={{
-                height: "400px",
-                minWidth: "450",
-                margin: "auto",
-                marginBottom: "20px"
-              }}
-            >
-              <CardTitle
-                style={{
-                  color: "yellow",
-                  minHeight: "176px",
-                  background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543937588/Local_Weather.png) center / cover"
-                }}
-              />
-              <CardText style={{ color: "black", fontSize: "20px" }}>
-                Local Weather
-              </CardText>
-              <CardText>
-                Weather app using the OpenWeather API and geolocation displaying
-                user's local weather and time.
-              </CardText>
-              <CardActions border>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://github.com/angelr1076/weather-js"
-                  >
-                    Github
-                  </a>
-                </Button>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://angelr1076.github.io/weather-js/"
-                  >
-                    Live Demo
-                  </a>
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }} />
-            </Card>
-          </Cell>
-          {/* Project 5 */}
-          <Cell col={6}>
-            <Card
-              shadow={5}
-              style={{
-                height: "400px",
-                minWidth: "450",
-                margin: "auto",
-                marginBottom: "20px"
-              }}
-            >
-              <CardTitle
-                style={{
-                  color: "yellow",
-                  minHeight: "176px",
-                  background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1542052847/Screen_Shot_2018-11-12_at_2.56.04_PM.png) center / cover"
-                }}
-              />
-              <CardText style={{ color: "black", fontSize: "20px" }}>
-                Bible Verses
-              </CardText>
-              <CardText>
-                JavaScript app uses the Mashape API to generate random bible
-                verses. Allows users to post verses they like on Twitter and the
-                background color changes each time a new verse is fetched.
-              </CardText>
-              <CardActions border>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://github.com/angelr1076/verses-fetch"
-                  >
-                    Github
-                  </a>
-                </Button>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://angelr1076.github.io/verses-fetch/#"
-                  >
-                    Live Demo
-                  </a>
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }} />
-            </Card>
-          </Cell>
           {/* Project 6 */}
           <Cell col={6}>
             <Card
@@ -378,7 +330,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -386,18 +338,23 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/mini-arcade.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/mini-arcade.png) center / cover",
                 }}
               />
               <CardText
-                style={{ color: "black", fontSize: "20px", padding: "5px" }}
+                style={{
+                  color: "black",
+                  fontSize: "20px",
+                  padding: "5px",
+                }}
               >
                 BRB Arcade
               </CardText>
               <CardText>
-                I created a Frogger-clone using the Phaser3 API. Implemented
-                gamification strategy that randomizes sorting of enemy movement
-                within various loops to enhance difficulty.
+                I created a Frogger-clone using the Phaser3 API.
+                Implemented gamification strategy that randomizes sorting
+                of enemy movement within various loops to enhance
+                difficulty.
               </CardText>
               <CardText>
                 Username: guest@gmail.com, Password: guestpass
@@ -433,7 +390,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -441,21 +398,21 @@ class Projects extends Component {
                   color: "black",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/star-shipped.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985057/star-shipped.png) center / cover",
                 }}
               />
               <CardText
                 style={{
                   color: "black",
                   fontSize: "20px",
-                  paddingBottom: "8px"
+                  paddingBottom: "8px",
                 }}
               >
                 Star-Shipped
               </CardText>
               <CardText>
-                Star-shipped uses ActiveRecord to create database tables for
-                users, ships and jobs tying them all together with an
+                Star-shipped uses ActiveRecord to create database tables
+                for users, ships and jobs tying them all together with an
                 assignments join table in Ruby on Rails.{" "}
                 <p>Username: guest@gmail.com, Password: guestpass</p>
               </CardText>
@@ -490,7 +447,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -498,22 +455,22 @@ class Projects extends Component {
                   color: "black",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/doggie-bloggie.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/doggie-bloggie.png) center / cover",
                 }}
               />
               <CardText
                 style={{
                   color: "black",
                   fontSize: "20px",
-                  paddingBottom: "8px"
+                  paddingBottom: "8px",
                 }}
               >
                 Doggie-Bloggie
               </CardText>
               <CardText>
-                Ruby on Rails blog app with full CRUD features. Styling is built
-                completely from scratch and uses no libraries for customization.
-                Utilizes full MVC capabilities of Rails.{" "}
+                Ruby on Rails blog app with full CRUD features. Styling is
+                built completely from scratch and uses no libraries for
+                customization. Utilizes full MVC capabilities of Rails.{" "}
                 <p style={{ padding: "5px" }}>
                   Username: guest, Password: guestpass
                 </p>
@@ -549,7 +506,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -557,15 +514,16 @@ class Projects extends Component {
                   color: "black",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/ruby-flooring.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/ruby-flooring.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
                 Ruby Flooring
               </CardText>
               <CardText>
-                Mock business website written in Sinatra. Has a Twitter-like
-                character count feature written in JavaScript.
+                Mock business website written in Sinatra. Has a
+                Twitter-like character count feature written in
+                JavaScript.
               </CardText>
               <CardActions border>
                 <Button colored>
@@ -598,7 +556,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -606,7 +564,7 @@ class Projects extends Component {
                   color: "white",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/coder-bytes.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/coder-bytes.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
@@ -644,7 +602,7 @@ class Projects extends Component {
             </Card>
           </Cell>
         </div>
-      );
+      )
     } else if (this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
@@ -656,7 +614,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -664,15 +622,15 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1541199159/Screen_Shot_2018-11-02_at_6.51.56_PM.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1541199159/Screen_Shot_2018-11-02_at_6.51.56_PM.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
                 Portfolio Site
               </CardText>
               <CardText>
-                Portfolio site built in React showcasing all projects written in
-                React, JavaScript, Rails and Sinatra.
+                Portfolio site built in React showcasing all projects
+                written in React, JavaScript, Rails and Sinatra.
               </CardText>
               <CardActions border style={{ margin: "10px" }}>
                 <Button colored>
@@ -697,11 +655,111 @@ class Projects extends Component {
               <CardMenu style={{ color: "#fff" }} />
             </Card>
           </Cell>
+          <Cell col={6}>
+            <Card
+              shadow={5}
+              style={{
+                height: "400px",
+                minWidth: "450",
+                margin: "auto",
+                marginBottom: "20px",
+              }}
+            >
+              <CardTitle
+                style={{
+                  color: "yellow",
+                  minHeight: "176px",
+                  background:
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1552339527/rambo.png) center / cover",
+                }}
+              />
+              <CardText style={{ color: "black", fontSize: "20px" }}>
+                Lock-n-Load
+              </CardText>
+              <CardText>
+                Strategy app built with Vue.js that uses Vue directives
+                and bindings for functionality.
+              </CardText>
+              <CardActions border style={{ margin: "10px" }}>
+                <Button colored>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/angelr1076/vue-js_lock-n-load"
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://natural-jellyfish.surge.sh/"
+                  >
+                    Live Demo
+                  </a>
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }} />
+            </Card>
+          </Cell>
         </div>
-      );
+      )
     } else if (this.state.activeTab === 2) {
       return (
         <div className="projects-grid">
+          {/* Project 3 */}
+          <Cell col={6}>
+            <Card
+              shadow={5}
+              style={{
+                height: "400px",
+                minWidth: "450",
+                margin: "auto",
+                marginBottom: "20px",
+              }}
+            >
+              <CardTitle
+                style={{
+                  color: "black",
+                  minHeight: "176px",
+                  background:
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover",
+                }}
+              />
+              <CardText style={{ color: "black", fontSize: "20px" }}>
+                Map-Attack
+              </CardText>
+              <CardText>
+                The app uses the REST Countries API and Google Maps API to
+                allow the user to view questions at random. The REST API
+                country generator function passes the param to the Google
+                Maps function and plots the given country onto the map for
+                viewing.
+              </CardText>
+              <CardActions border>
+                <Button colored>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://github.com/angelr1076/"
+                  >
+                    Github
+                  </a>
+                </Button>
+                <Button colored>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://map-attack.netlify.com/"
+                  >
+                    Live Demo
+                  </a>
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }} />
+            </Card>
+          </Cell>
           {/* Project 1.2 */}
           <Cell col={6}>
             <Card
@@ -710,7 +768,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -718,7 +776,7 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547660216/screecap1.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547660216/screecap1.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
@@ -760,7 +818,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -768,16 +826,17 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/sudzzz.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547579944/sudzzz.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
                 Sudzzz
               </CardText>
               <CardText>
-                Beer list app written in JavaScript that allows users to create
-                a digital beer list. The user can also select all or some beer
-                on the list and adjust them based on checked selections.
+                Beer list app written in JavaScript that allows users to
+                create a digital beer list. The user can also select all
+                or some beer on the list and adjust them based on checked
+                selections.
               </CardText>
               <CardActions border>
                 <Button colored>
@@ -810,7 +869,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -818,7 +877,7 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543806642/Screen_Shot_2018-12-02_at_10.09.05_PM.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543806642/Screen_Shot_2018-12-02_at_10.09.05_PM.png) center / cover",
                 }}
               />
               <CardText style={{ color: "black", fontSize: "20px" }}>
@@ -826,9 +885,9 @@ class Projects extends Component {
               </CardText>
               <CardText>
                 The app generates random JavaScript terminology. Functions
-                generate a hint as to what the word is, how many letters are in
-                the word, the number of guesses remaining, letters already used
-                and how many rounds the user won.
+                generate a hint as to what the word is, how many letters
+                are in the word, the number of guesses remaining, letters
+                already used and how many rounds the user won.
               </CardText>
               <CardActions border>
                 <Button colored>
@@ -853,156 +912,6 @@ class Projects extends Component {
               <CardMenu style={{ color: "#fff" }} />
             </Card>
           </Cell>
-          {/* Project 3 */}
-          <Cell col={6}>
-            <Card
-              shadow={5}
-              style={{
-                height: "400px",
-                minWidth: "450",
-                margin: "auto",
-                marginBottom: "20px"
-              }}
-            >
-              <CardTitle
-                style={{
-                  color: "black",
-                  minHeight: "176px",
-                  background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985055/map-attack.png) center / cover"
-                }}
-              />
-              <CardText style={{ color: "black", fontSize: "20px" }}>
-                Map-Attack
-              </CardText>
-              <CardText>
-                The app uses the REST Countries API and Google Maps API to allow
-                the user to view questions at random. The REST API country
-                generator function passes the param to the Google Maps function
-                and plots the given country onto the map for viewing.
-              </CardText>
-              <CardActions border>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://github.com/angelr1076/"
-                  >
-                    Github
-                  </a>
-                </Button>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://map-attack.netlify.com/"
-                  >
-                    Live Demo
-                  </a>
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }} />
-            </Card>
-          </Cell>
-          {/* Project 4 */}
-          <Cell col={6}>
-            <Card
-              shadow={5}
-              style={{
-                height: "400px",
-                minWidth: "450",
-                margin: "auto",
-                marginBottom: "20px"
-              }}
-            >
-              <CardTitle
-                style={{
-                  color: "yellow",
-                  minHeight: "176px",
-                  background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543937588/Local_Weather.png) center / cover"
-                }}
-              />
-              <CardText style={{ color: "black", fontSize: "20px" }}>
-                Local Weather
-              </CardText>
-              <CardText>
-                Weather app using the OpenWeather API and geolocation displaying
-                user's local weather and time.
-              </CardText>
-              <CardActions border>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://github.com/angelr1076/weather-js"
-                  >
-                    Github
-                  </a>
-                </Button>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://angelr1076.github.io/weather-js/"
-                  >
-                    Live Demo
-                  </a>
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }} />
-            </Card>
-          </Cell>
-          {/* Project 5 */}
-          <Cell col={6}>
-            <Card
-              shadow={5}
-              style={{
-                height: "400px",
-                minWidth: "450",
-                margin: "auto",
-                marginBottom: "20px"
-              }}
-            >
-              <CardTitle
-                style={{
-                  color: "yellow",
-                  minHeight: "176px",
-                  background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1542052847/Screen_Shot_2018-11-12_at_2.56.04_PM.png) center / cover"
-                }}
-              />
-              <CardText style={{ color: "black", fontSize: "20px" }}>
-                Bible Verses
-              </CardText>
-              <CardText>
-                JavaScript app uses the Mashape API to generate random bible
-                verses. Allows users to post verses they like on Twitter and the
-                background color changes each time a new verse is fetched.
-              </CardText>
-              <CardActions border>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://github.com/angelr1076/verses-fetch"
-                  >
-                    Github
-                  </a>
-                </Button>
-                <Button colored>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://angelr1076.github.io/verses-fetch/#"
-                  >
-                    Live Demo
-                  </a>
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }} />
-            </Card>
-          </Cell>
           {/* Project 6 */}
           <Cell col={6}>
             <Card
@@ -1011,7 +920,7 @@ class Projects extends Component {
                 height: "400px",
                 minWidth: "450",
                 margin: "auto",
-                marginBottom: "20px"
+                marginBottom: "20px",
               }}
             >
               <CardTitle
@@ -1019,18 +928,23 @@ class Projects extends Component {
                   color: "yellow",
                   minHeight: "176px",
                   background:
-                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/mini-arcade.png) center / cover"
+                    "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1540985056/mini-arcade.png) center / cover",
                 }}
               />
               <CardText
-                style={{ color: "black", fontSize: "20px", padding: "5px" }}
+                style={{
+                  color: "black",
+                  fontSize: "20px",
+                  padding: "5px",
+                }}
               >
                 BRB Arcade
               </CardText>
               <CardText>
-                I created a Frogger-clone using the Phaser3 API. Implemented
-                gamification strategy that randomizes sorting of enemy movement
-                within various loops to enhance difficulty.
+                I created a Frogger-clone using the Phaser3 API.
+                Implemented gamification strategy that randomizes sorting
+                of enemy movement within various loops to enhance
+                difficulty.
               </CardText>
               <CardText>
                 Username: guest@gmail.com, Password: guestpass
@@ -1059,7 +973,7 @@ class Projects extends Component {
             </Card>
           </Cell>
         </div>
-      );
+      )
     } else if (this.state.activeTab === 3) {
       return (
         <div className="projects-grid">
@@ -1294,7 +1208,7 @@ class Projects extends Component {
           ripple
         >
           <Tab style={{ color: "white" }}>All</Tab>
-          <Tab style={{ color: "white" }}>React</Tab>
+          <Tab style={{ color: "white" }}>React/Vue</Tab>
           <Tab style={{ color: "white" }}>JavaScript</Tab>
           <Tab style={{ color: "white" }}>Ruby</Tab>
         </Tabs>
