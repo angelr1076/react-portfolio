@@ -60,34 +60,19 @@ class Landing extends Component {
           <Cell col={6} tablet={12}>
             <div className='landing-bio'>
               <p style={{ width: '75%', margin: '5%' }}>
-                Hi, and thanks for checking out my site! I'm a web developer
-                that's passionate about growth and learning new things! In fact,
-                since I've been programming, I can say there hasn't been a day
-                that I haven't had the opportunity to learn something new. I
-                chose coding as a way to solve problems and bring my ideas to
-                life.
+                I've always been fascinated by tech. Like many people early on in life, I went down a career path I thought I loved but eventually became disengaged from it. I love to solve problems and coding gives me an outlet to come up with ideas and think logically to problem-solve at the same time.
               </p>
 
               <p style={{ width: '75%', margin: '5%' }}>
-                Prior to learning to code, I had so many ideas that I wanted to
-                bring to life, but I had no clue about where or how to begin. As
-                soon as I started learning programming, I realized I could
-                challenge myself, and others to materialize thoughts by writing
-                code.{' '}
+               I decided to take a deep dive into web development by joining an intensive boot-camp in mid-2018. It is the best investment in myself that I've ever made. My passion has always been to create new things that are useful to others; tech is one of the best ways for me to demonstrate this. 
               </p>
 
               <p style={{ width: '75%', margin: '5%' }}>
-                When I have an idea that I'm able to sketch out, plan and bring
-                to life to view and interact with, it is like no other feeling
-                I've experienced in my prior work. It's such a gratifying
-                feeling to create, break, and improve your own projects through
-                code, and also learn from that in the process.
+                I'm always fascinated by the power that planning and coding harnesses in development and other facets of programming. I don't ever see myself losing the curiosity and excitement of writing my first several lines of code and the sheer exhilaration of understanding what exactly is going on under the hood with a simple console.log. 
               </p>
 
               <p style={{ width: '75%', margin: '5%' }}>
-                I would love the opportunity to speak with you if you have
-                questions about my background or if you'd like to interview me
-                and talk tech, or maybe even food!
+                If you feel that I could be a good fit for your company, have questions or some advice, please do not hesitate to contact me! I would love to hear from you!
               </p>
             </div>
           </Cell>
