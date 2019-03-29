@@ -50,7 +50,7 @@ class Contact extends Component {
               className="contact-closing"
               style={{ width: "75%", margin: "auto", paddingTop: "1rem" }}
             >
-              Front-end web developer with a passion for design and
+              Junior software developer with a passion for design and
               problem-solving. Please contact me if you have any questions or
               comments. Aside from programming, I love to spend time with my
               wife, read and cook.
