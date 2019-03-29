@@ -9,13 +9,12 @@ body {
 
 .header-color {
   background: linear-gradient(
-    180deg,
+    to right,
     rgb(51, 124, 129),
     rgb(22, 95, 100),
     rgb(2, 62, 77)
   );
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
+
   background: -webkit-linear-gradient(
     to right,
     rgb(81, 143, 148),
