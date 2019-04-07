@@ -1,7 +1,7 @@
 body {
   /* credit for body and navbar svgs from Steve Shroger from heropatterns.com */
   background-image: url("./images/texture.svg"),
-    linear-gradient(180deg, #5f1c1f, #942228, #fa1420);
+    linear-gradient(180deg, #5f1c1f, #ad1d24, #f80411);
   background-size: 400px, auto;
   background-attachment: fixed;
   font-family: "Noto Sans", sans-serif;
@@ -9,10 +9,10 @@ body {
 
 .header-color {
   background: linear-gradient(
-    to right,
-    rgb(51, 124, 129),
-    rgb(22, 95, 100),
-    rgb(2, 62, 77)
+    90deg,
+    rgb(45, 51, 51),
+    rgb(8, 39, 41),
+    rgb(6, 27, 32)
   );
 
   background: -webkit-linear-gradient(
