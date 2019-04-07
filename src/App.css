@@ -16,15 +16,15 @@ body {
   );
 
   background: -webkit-linear-gradient(
-    to right,
-    rgb(81, 143, 148),
-    rgb(31, 113, 119),
-    rgb(1, 80, 100)
+    90deg,
+    rgb(45, 51, 51),
+    rgb(8, 39, 41),
+    rgb(6, 27, 32)
   );
 }
 
 .mdl-navigation__link:hover {
-  background-color: rgba(9, 118, 145, 0.7);
+  background-color: rgba(27, 58, 66, 0.7);
   transition: 0.5s ease;
 }
 
