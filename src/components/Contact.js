@@ -1,19 +1,19 @@
+import axios from "axios";
 import React, { Component } from "react";
 import { Grid, Cell, Textfield, Button } from "react-mdl";
 import "./Contact.css";
-import axios from "axios";
 
 class Contact extends Component {
   state = {
     fullName: "",
     email: "",
-    message: ""
+    message: "",
   };
 
   handleForm = e => {
     axios
       .post("https://formcarry.com/s/e6BQqZAa68P", this.state, {
-        headers: { Accept: "application/json" }
+        headers: { Accept: "application/json" },
       })
       .then(function(response) {
         let successMessage = document.querySelector(".success-message");
@@ -43,9 +43,12 @@ class Contact extends Component {
             <img
               src="https://res.cloudinary.com/angelrodriguez/image/upload/v1528903608/261905_157517620988095_7963288_n.jpg"
               alt="avatar"
-              style={{ width: "80%", height: "auto", padding: "1rem 0 1rem 0" }}
+              style={{
+                width: "60%",
+                height: "auto",
+                padding: "1rem 0 1rem 0",
+              }}
             />
-            <hr />
             <p
               className="contact-closing"
               style={{ width: "75%", margin: "auto", paddingTop: "1rem" }}
@@ -64,7 +67,7 @@ class Contact extends Component {
                 className="tech"
                 style={{
                   color: "rgb(226, 226, 19)",
-                  textTransform: "uppercase"
+                  textTransform: "uppercase",
                 }}
               >
                 Programming:
@@ -80,12 +83,13 @@ class Contact extends Component {
                 className="tech"
                 style={{
                   color: "rgb(226, 226, 19)",
-                  textTransform: "uppercase"
+                  textTransform: "uppercase",
                 }}
               >
                 Software:
               </label>{" "}
-              Heroku, Firebase, Netlify, AWS, Hugo, Bootstrap, Git and Github
+              Heroku, Firebase, Netlify, AWS, Hugo, FileMaker, Bootstrap, Git
+              and Github
             </p>
           </Cell>
           <Cell col={6}>

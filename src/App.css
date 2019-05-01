@@ -1,7 +1,7 @@
 body {
   /* credit for body and navbar svgs from Steve Shroger from heropatterns.com */
-  background-image: url("./images/texture.svg"),
-    linear-gradient(180deg, #5f1c1f, #ad1d24, #f80411);
+  background-image: url("./images/texture.svg");
+  background:  rgb(48, 44, 44);;
   background-size: 400px, auto;
   background-attachment: fixed;
   font-family: "Noto Sans", sans-serif;

@@ -47,17 +47,17 @@ class Landing extends Component {
             <hr />
 
             <div className="devicons">
-              <i className="devicon-javascript-plain" />
-              <i className="devicon-jquery-plain-wordmark" />
-              <i className="devicon-react-original-wordmark" />
-              <i className="devicon-ruby-plain-wordmark" />
-              <i className="devicon-rails-plain-wordmark" />
-              <i className="devicon-bootstrap-plain-wordmark" />
-              <i className="devicon-html5-plain-wordmark" />
-              <i className="devicon-css3-plain-wordmark" />
-              <i className="devicon-gitlab-plain-wordmark" />
+              <i className="devicon-javascript-plain colored" />
+              <i className="devicon-jquery-plain-wordmark colored" />
+              <i className="devicon-react-original-wordmark colored" />
+              <i className="devicon-ruby-plain-wordmark colored" />
+              <i className="devicon-rails-plain-wordmark colored" />
+              <i className="devicon-bootstrap-plain-wordmark colored" />
+              <i className="devicon-html5-plain-wordmark colored" />
+              <i className="devicon-css3-plain-wordmark colored" />
+              <i className="devicon-gitlab-plain-wordmark colored" />
               <i class="devicon-gimp-plain" />
-              <i className="devicon-heroku-original-wordmark" />
+              <i className="devicon-heroku-original-wordmark colored" />
               <i className="devicon-github-plain-wordmark" />
             </div>
           </Cell>

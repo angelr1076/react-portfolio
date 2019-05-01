@@ -1,48 +1,50 @@
-import React, { Component } from 'react'
-import './App.css'
-import { Header, Navigation, Layout, Drawer, Content } from 'react-mdl'
-import Main from './components/Main'
-import { Link } from 'react-router-dom'
+import React, { Component } from "react";
+import { Header, Navigation, Layout, Drawer, Content } from "react-mdl";
+import { Link } from "react-router-dom";
+import "./App.css";
+import Main from "./components/Main";
 
 class App extends Component {
-  render () {
+  render() {
     return (
-      <div className='demo-big-content'>
+      <div className="demo-big-content">
         <Layout>
           <Header
-            className='header-color'
+            className="header-color"
             title={
-              <Link style={{ textDecoration: 'none', color: 'white' }} to='/'>
-                Home
+              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+                About Me
               </Link>
             }
-            scroll>
+            scroll
+          >
             <Navigation>
-              <Link to='/resume'>Resume</Link>
-              <Link to='/projects'>Projects</Link>
-              <Link to='/contact'>Contact</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/mywork">My Work</Link>
+              <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
           <Drawer
             title={
-              <Link style={{ textDecoration: 'none', color: 'red' }} to='/'>
+              <Link style={{ textDecoration: "none", color: "red" }} to="/">
                 Home
               </Link>
-            }>
+            }
+          >
             <Navigation>
-              <Link to='/resume'>Resume</Link>
-              <Link to='/projects'>Projects</Link>
-              <Link to='/contact'>Contact</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/myWork">My Work</Link>
+              <Link to="/contact">Contact</Link>
             </Navigation>
           </Drawer>
           <Content>
-            <div className='page-content' />
+            <div className="page-content" />
             <Main />
           </Content>
         </Layout>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;

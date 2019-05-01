@@ -1,32 +1,33 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Switch, Route, withRouter } from 'react-router-dom';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import LandingPage from './Landing';
-import Contact from './Contact';
-import Projects from './Projects';
-import Resume from './Resume';
+import React from "react";
+import { Switch, Route, withRouter } from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
+import styled from "styled-components";
+import Contact from "./Contact";
+import LandingPage from "./Landing";
+import Projects from "./Projects";
+import Resume from "./Resume";
 
-function Main ({ location }) {
+function Main({ location }) {
   return (
     <Wrapper>
-      <TransitionGroup className='transition-group'>
+      <TransitionGroup className="transition-group">
         <CSSTransition
           key={location.key}
           timeout={{ enter: 300, exit: 300 }}
-          classNames={'fade'}>
-          <section className='route-section'>
+          classNames={"fade"}
+        >
+          <section className="route-section">
             <Switch location={location}>
-              <Route exact path='/' component={LandingPage} />
-              <Route path='/contact' component={Contact} />
-              <Route path='/projects' component={Projects} />
-              <Route path='/resume' component={Resume} />
+              <Route exact path="/" component={LandingPage} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/mywork" component={Projects} />
+              <Route path="/resume" component={Resume} />
             </Switch>
           </section>
         </CSSTransition>
       </TransitionGroup>
     </Wrapper>
-  )
+  );
 }
 
 const Wrapper = styled.div`
@@ -55,6 +56,6 @@ const Wrapper = styled.div`
     top: 0;
     left: 0;
   }
-`
+`;
 
-export default withRouter(Main)
+export default withRouter(Main);
