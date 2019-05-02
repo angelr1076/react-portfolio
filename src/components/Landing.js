@@ -55,10 +55,10 @@ class Landing extends Component {
               <i className="devicon-bootstrap-plain-wordmark colored" />
               <i className="devicon-html5-plain-wordmark colored" />
               <i className="devicon-css3-plain-wordmark colored" />
+              <i className="devicon-github-plain-wordmark" />
               <i className="devicon-gitlab-plain-wordmark colored" />
               <i class="devicon-gimp-plain" />
               <i className="devicon-heroku-original-wordmark colored" />
-              <i className="devicon-github-plain-wordmark" />
             </div>
           </Cell>
 

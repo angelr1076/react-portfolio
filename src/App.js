@@ -27,7 +27,7 @@ class App extends Component {
           <Drawer
             title={
               <Link style={{ textDecoration: "none", color: "red" }} to="/">
-                Home
+                About Me
               </Link>
             }
           >
