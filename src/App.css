@@ -9,19 +9,9 @@ body {
 }
 
 .header-color {
-  background: linear-gradient(
-    90deg,
-    rgb(45, 51, 51),
-    rgb(8, 39, 41),
-    rgb(6, 27, 32)
-  );
+  background: linear-gradient(180deg, rgb(102, 1, 18), rgb(102, 1, 18));
 
-  background: -webkit-linear-gradient(
-    90deg,
-    rgb(45, 51, 51),
-    rgb(8, 39, 41),
-    rgb(6, 27, 32)
-  );
+  background: -webkit-linear-gradient(180deg, rgb(102, 1, 18), rgb(102, 1, 18));
 }
 
 .mdl-navigation__link:hover {

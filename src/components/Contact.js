@@ -39,12 +39,12 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Angel Rodriguez</h2>
-            <hr />
+
             <img
               src="https://res.cloudinary.com/angelrodriguez/image/upload/v1528903608/261905_157517620988095_7963288_n.jpg"
               alt="avatar"
               style={{
-                width: "60%",
+                width: "70%",
                 height: "auto",
                 padding: "1rem 0 1rem 0",
               }}
@@ -94,7 +94,7 @@ class Contact extends Component {
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
-            <hr />
+
             <div style={{ width: "100%" }} className="contact-list">
               <form onSubmit={this.handleForm}>
                 <Cell col={12}>
