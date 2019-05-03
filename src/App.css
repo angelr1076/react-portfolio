@@ -4,7 +4,7 @@ body {
   background-image: url("./images/texture.svg"),
     linear-gradient(180deg, rgb(48, 44, 44), rgb(48, 44, 44));
   background-size: 400px, auto;
-  background-attachment: fixed;
+  background-attachment: local;
   font-family: "Noto Sans", sans-serif;
 }
 
