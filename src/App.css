@@ -82,6 +82,10 @@ body {
   .resume-template {
     width: 100%;
   }
+
+  .social-links {
+    justify-content: center;
+  }
 }
 
 @media all and (max-width: 479px) {

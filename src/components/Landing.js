@@ -51,14 +51,13 @@ class Landing extends Component {
             </div>
 
             <hr />
-
             <div className="devicons">
               <i className="devicon-javascript-plain colored" />
-              <i class="devicon-nodejs-plain colored" />
+              <i className="devicon-nodejs-plain colored" />
               <i className="devicon-jquery-plain-wordmark colored" />
               <i className="devicon-react-original-wordmark colored" />
-              <i class="devicon-webpack-plain colored" />
-              <i class="devicon-babel-plain colored" />
+              <i className="devicon-webpack-plain colored" />
+              <i className="devicon-babel-plain colored" />
               <i className="devicon-ruby-plain-wordmark colored" />
               <i className="devicon-rails-plain-wordmark colored" />
               <i className="devicon-bootstrap-plain-wordmark colored" />
@@ -66,9 +65,9 @@ class Landing extends Component {
               <i className="devicon-css3-plain-wordmark colored" />
               <i className="devicon-github-plain-wordmark" />
               <i className="devicon-gitlab-plain-wordmark colored" />
-              <i class="devicon-gimp-plain" />
+              <i className="devicon-gimp-plain" />
               <i className="devicon-heroku-original-wordmark colored" />
-              <i class="devicon-postgresql-plain-wordmark colored" />
+              <i className="devicon-postgresql-plain-wordmark colored" />
             </div>
           </Cell>
 
@@ -104,7 +103,7 @@ class Landing extends Component {
                 hesitate to contact me! I would love to hear from you!
               </p>
 
-              <p className="skills" style={{ width: "75%", margin: "5%" }}>
+              <p className="skills" style={{ width: "75%", margin: "5%", color: "rgb(199, 199, 42)" }}>
                 JavaScript ES5 to ESNext, Node.js, jQuery, React, JSON,
                 PostgreSQL, Ruby on Rails, Sinatra, Flexbox, CSS Grid, HTML5,
                 CSS3, Heroku, Firebase, Netlify, AWS, Hugo, Webpack, Babel,
