@@ -2,7 +2,6 @@ import React from "react";
 import { Switch, Route, withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import styled from "styled-components";
-import Contact from "./Contact";
 import LandingPage from "./Landing";
 import Projects from "./Projects";
 import Resume from "./Resume";
@@ -19,7 +18,6 @@ function Main({ location }) {
           <section className="route-section">
             <Switch location={location}>
               <Route exact path="/" component={LandingPage} />
-              <Route path="/contact" component={Contact} />
               <Route path="/mywork" component={Projects} />
               <Route path="/resume" component={Resume} />
             </Switch>

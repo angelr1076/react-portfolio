@@ -10,9 +10,7 @@ class Landing extends Component {
           <Cell col={6} tablet={12}>
             <div className="banner-text">
               <h1 className="name-header">Angel Rodriguez</h1>
-              <h3 className="dev-header">
-                Junior Software Developer/Consultant
-              </h3>
+              <h3 className="dev-header">Software Developer/Consultant</h3>
               <h3 className="location-header">Philadelphia, PA</h3>
             </div>
             <div className="social-links">
@@ -42,14 +40,25 @@ class Landing extends Component {
               >
                 <i className="fa fa-twitter-square" aria-hidden="true" />
               </a>
+              {/* Email */}
+              <a
+                href="mailto:angelr1076@gmail.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fa fa-envelope-square" aria-hidden="true" />
+              </a>
             </div>
 
             <hr />
 
             <div className="devicons">
               <i className="devicon-javascript-plain colored" />
+              <i class="devicon-nodejs-plain colored" />
               <i className="devicon-jquery-plain-wordmark colored" />
               <i className="devicon-react-original-wordmark colored" />
+              <i class="devicon-webpack-plain colored" />
+              <i class="devicon-babel-plain colored" />
               <i className="devicon-ruby-plain-wordmark colored" />
               <i className="devicon-rails-plain-wordmark colored" />
               <i className="devicon-bootstrap-plain-wordmark colored" />
@@ -59,6 +68,7 @@ class Landing extends Component {
               <i className="devicon-gitlab-plain-wordmark colored" />
               <i class="devicon-gimp-plain" />
               <i className="devicon-heroku-original-wordmark colored" />
+              <i class="devicon-postgresql-plain-wordmark colored" />
             </div>
           </Cell>
 
@@ -92,6 +102,13 @@ class Landing extends Component {
               <p style={{ width: "75%", margin: "5%" }}>
                 If you have questions or perhaps some advice, please do not
                 hesitate to contact me! I would love to hear from you!
+              </p>
+
+              <p className="skills" style={{ width: "75%", margin: "5%" }}>
+                JavaScript ES5 to ESNext, Node.js, jQuery, React, JSON,
+                PostgreSQL, Ruby on Rails, Sinatra, Flexbox, CSS Grid, HTML5,
+                CSS3, Heroku, Firebase, Netlify, AWS, Hugo, Webpack, Babel,
+                FileMaker, Bootstrap, Git and Github
               </p>
             </div>
           </Cell>

@@ -12,29 +12,21 @@ class App extends Component {
           <Header
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
-                About Me
-              </Link>
+              <Link style={{ textDecoration: "none", color: "white" }} to="/" />
             }
             scroll
           >
             <Navigation>
+              <Link to="/">About</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/mywork">My Work</Link>
-              <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer
-            title={
-              <Link style={{ textDecoration: "none", color: "red" }} to="/">
-                About Me
-              </Link>
-            }
-          >
+          <Drawer>
             <Navigation>
+              <Link to="/">About</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/myWork">My Work</Link>
-              <Link to="/contact">Contact</Link>
             </Navigation>
           </Drawer>
           <Content>

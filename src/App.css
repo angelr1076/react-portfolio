@@ -9,14 +9,9 @@ body {
 }
 
 .header-color {
-  background: linear-gradient(180deg, rgb(102, 1, 18), rgb(102, 1, 18));
+  background: linear-gradient(180deg, rgb(58, 61, 54), rgb(54, 56, 50));
 
-  background: -webkit-linear-gradient(180deg, rgb(102, 1, 18), rgb(102, 1, 18));
-}
-
-.mdl-navigation__link:hover {
-  background-color: rgba(27, 58, 66, 0.7);
-  transition: 0.5s ease;
+  background: -webkit-linear-gradient(180deg, rgb(58, 61, 54), rgb(54, 56, 50));
 }
 
 /* Navbar */
@@ -27,16 +22,24 @@ body {
 .mdl-navigation__link {
   color: rgb(255, 255, 0) !important;
   font-size: 1.1rem !important;
-  border: none !important;
+  border: none;
+  transition: 0.5s ease;
 }
 
 .mdl-navigation__link:hover {
-  background: rgb(58, 61, 54) !important;
+  background: rgb(74, 78, 69) !important;
   border: none !important;
+  font-size: 1.2rem !important;
+  transition: 0.5s ease;
 }
 
 .mdl-layout__drawer {
   background: rgb(42, 44, 39) !important;
+  border: none !important;
+}
+
+.mdl-layout__drawer:hover {
+  background: rgb(54, 56, 51) !important;
   border: none !important;
 }
 
