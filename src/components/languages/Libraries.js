@@ -28,7 +28,7 @@ const Libraries = () => {
               color: "yellow",
               minHeight: "176px",
               background:
-                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1541199159/Screen_Shot_2018-11-02_at_6.51.56_PM.png) center / cover",
+                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1557097065/Portfolio.png) center / cover",
             }}
           />
           <CardText style={{ color: "black", fontSize: "20px" }}>
