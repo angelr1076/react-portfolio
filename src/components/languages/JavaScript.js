@@ -80,7 +80,7 @@ const JavaScript = () => {
               color: "yellow",
               minHeight: "176px",
               background:
-                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1547660216/screecap1.png) center / cover",
+                "url(https://github.com/angelr1076/recip-ease/blob/master/public/images/screencap1.png?raw=true) center / cover",
             }}
           />
           <CardText style={{ color: "black", fontSize: "20px" }}>
@@ -155,7 +155,7 @@ const JavaScript = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://tart-condition.surge.sh/"
+                href="https://brash-crush.surge.sh/"
               >
                 Live Demo
               </a>
