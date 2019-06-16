@@ -36,8 +36,8 @@ Landing Page .banner-text h1 {
 .devicons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 65%;
+  justify-content: space-evenly;
+  width: 75%;
   margin: auto;
   margin-top: 1em;
 }
@@ -46,15 +46,6 @@ Landing Page .banner-text h1 {
   font-size: 4rem;
   padding: 8px;
 }
-
-/* .landing-body {
-  color: rgb(243, 237, 237);
-  text-align: center;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-} */
 
 .landing-bio p {
   padding: 0;
