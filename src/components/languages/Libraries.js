@@ -51,7 +51,7 @@ const Libraries = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://angelroddie.com"
+                href="https://angelrod.dev"
               >
                 Live Demo
               </a>
