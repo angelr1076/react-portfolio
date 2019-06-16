@@ -20,7 +20,7 @@ class App extends Component {
               <Link to="/mywork">My Work</Link>
             </Navigation>
           </Header>
-          <Drawer hideDesktop>
+          <Drawer>
             <Navigation>
               <Link to="/">About</Link>
               <Link to="/resume">Resume</Link>
