@@ -1,4 +1,4 @@
-This is redesigned from a HUGO port I built months ago (angelroddy.com) and rebuilt in React. The site is hosted with Firebase uses react-mdl for some styling and is mobile-responsive.
+This is a rebuild from a HUGO theme I used as my first portfolio site written in React. The site is hosted with Firebase uses react-mdl. 
 
 ![Settings Window](./src/images/home.png)
 
@@ -14,7 +14,7 @@ This is redesigned from a HUGO port I built months ago (angelroddy.com) and rebu
 If you'd like to run the project locally, please clone it and follow the instructions below:
 
 ### `npm start` or `yarn start`
-
+I
 Runs the app in development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
