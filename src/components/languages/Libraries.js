@@ -18,7 +18,6 @@ const Libraries = () => {
           shadow={5}
           style={{
             height: "400px",
-            minWidth: "450",
             margin: "auto",
             marginBottom: "20px",
           }}
@@ -66,7 +65,6 @@ const Libraries = () => {
           shadow={5}
           style={{
             height: "400px",
-            minWidth: "450",
             margin: "auto",
             marginBottom: "20px",
           }}

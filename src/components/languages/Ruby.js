@@ -19,7 +19,6 @@ const Ruby = () => {
           shadow={5}
           style={{
             height: "400px",
-            minWidth: "450",
             margin: "auto",
             marginBottom: "20px",
           }}
@@ -76,7 +75,6 @@ const Ruby = () => {
           shadow={5}
           style={{
             height: "400px",
-            minWidth: "450",
             margin: "auto",
             marginBottom: "20px",
           }}
@@ -135,7 +133,6 @@ const Ruby = () => {
           shadow={5}
           style={{
             height: "400px",
-            minWidth: "450",
             margin: "auto",
             marginBottom: "20px",
           }}
@@ -184,7 +181,6 @@ const Ruby = () => {
           shadow={5}
           style={{
             height: "400px",
-            minWidth: "450",
             margin: "auto",
             marginBottom: "20px",
           }}

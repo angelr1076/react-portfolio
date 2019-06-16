@@ -33,10 +33,10 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab style={{ color: "whitesmoke" }}>All</Tab>
-          <Tab style={{ color: "whitesmoke" }}>React/Vue</Tab>
-          <Tab style={{ color: "whitesmoke" }}>JavaScript</Tab>
-          <Tab style={{ color: "whitesmoke" }}>Ruby</Tab>
+          <Tab>All</Tab>
+          <Tab>React/Vue</Tab>
+          <Tab>JavaScript</Tab>
+          <Tab>Ruby</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>

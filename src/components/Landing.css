@@ -1,5 +1,4 @@
-/* Landing Page */
-.banner-text h1 {
+Landing Page .banner-text h1 {
   font-size: 5em;
   font-weight: bold;
   color: rgb(199, 199, 42);
@@ -25,7 +24,7 @@
 }
 
 .social-links i {
-  color: rgb(247, 233, 233);
+  color: rgb(66, 61, 61);
   font-size: 5rem;
   padding: 8px;
   -webkit-transition: color 500ms ease;
@@ -34,17 +33,11 @@
   transition: color 500ms ease;
 }
 
-.social-links i:hover {
-  color: rgb(179, 179, 192);
-  font-size: 4.9rem;
-  transition: 0.3s ease;
-}
-
 .devicons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 50%;
+  width: 65%;
   margin: auto;
   margin-top: 1em;
 }
@@ -54,14 +47,14 @@
   padding: 8px;
 }
 
-.landing-body {
+/* .landing-body {
   color: rgb(243, 237, 237);
   text-align: center;
   justify-content: center;
   top: 0;
   left: 0;
   width: 100%;
-}
+} */
 
 .landing-bio p {
   padding: 0;
@@ -69,15 +62,10 @@
   font-size: 1.1em;
   letter-spacing: 0px;
   text-align: justify;
-  color: rgb(243, 235, 235);
 }
 
 .landing-grid hr {
-  border-top: 5px solid rgb(216, 207, 207);
+  border-top: 2px solid rgb(114, 108, 108);
   width: 80%;
   margin: auto;
-}
-
-.skills {
-  color: rgb(199, 199, 42);
 }

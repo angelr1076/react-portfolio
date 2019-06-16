@@ -7,13 +7,11 @@ import Main from "./components/Main";
 class App extends Component {
   render() {
     return (
-      <div className="demo-big-content">
+      <div className="header-color">
         <Layout>
           <Header
             className="header-color"
-            title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/" />
-            }
+            title={<Link style={{ textDecoration: "none" }} to="/" />}
             scroll
           >
             <Navigation>
@@ -22,7 +20,7 @@ class App extends Component {
               <Link to="/mywork">My Work</Link>
             </Navigation>
           </Header>
-          <Drawer>
+          <Drawer hideDesktop>
             <Navigation>
               <Link to="/">About</Link>
               <Link to="/resume">Resume</Link>
