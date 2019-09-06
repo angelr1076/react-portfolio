@@ -4,6 +4,5 @@ body {
 }
 
 .header-color {
-  background: linear-gradient(180deg, rgb(58, 61, 54), rgb(54, 56, 50));
-  background: -webkit-linear-gradient(180deg, rgb(58, 61, 54), rgb(54, 56, 50));
+  background: #36454f !important;
 }

@@ -56,6 +56,7 @@ class Landing extends Component {
           <hr />
           <div className="devicons">
             <i className="devicon-javascript-plain colored" />
+            <i class="devicon-jquery-plain-wordmark colored" />
             <i className="devicon-nodejs-plain colored" />
             <i className="devicon-react-original-wordmark" />
             <i className="devicon-ruby-plain-wordmark colored" />
@@ -66,7 +67,7 @@ class Landing extends Component {
             <i className="devicon-github-plain-wordmark colored" />
             <i className="devicon-gitlab-plain-wordmark colored" />
             <i className="devicon-heroku-original-wordmark colored" />
-            <i className="devicon-postgresql-plain-wordmark colored" />
+            <i class="devicon-amazonwebservices-original colored" />
           </div>
         </Cell>
 
@@ -80,33 +81,23 @@ class Landing extends Component {
             }}
           >
             <p>
-              I've always been fascinated by tech. Like many people early on in
-              life, I went down a career path I thought I loved but eventually
-              became disengaged from it. I love to solve problems and coding
-              gives me an outlet to come up with ideas and think logically to
-              problem-solve at the same time.
+              I have always had an amateur interest in technology without ever digging 
+              deep enough to make it a career until recently. 
+              Early in my life, I went down a career path I thought I loved but eventually became disengaged from it. I love to solve problems;
+              coding gives me an outlet to use logic to come up with solutions that make people's lives more manageable.
+            </p>
+           
+            <p>
+              I decided to take a deep dive into development by enrolling in a
+              web intensive boot-camp in mid-2018. It is the best investment in myself that I have ever made. My passion has always been to create new products that are useful to others; tech is one of the best ways for me to accomplish this.
+            </p>
+            
+            <p>
+              I am always fascinated by the power that planning, collaborating and programming harnesses in development. I don't ever see myself losing the curiosity and excitement of writing my first several lines of code and the exhilaration of fixing an issue through debugging. 
             </p>
 
             <p>
-              I decided to take a deep dive into web development by joining an
-              intensive boot-camp in mid-2018. It is the best investment in
-              myself that I've ever made. My passion has always been to create
-              new things that are useful to others; tech is one of the best ways
-              for me to demonstrate this.
-            </p>
-
-            <p>
-              I'm always fascinated by the power that planning and coding
-              harnesses in development and other facets of programming. I don't
-              ever see myself losing the curiosity and excitement of writing my
-              first several lines of code and the sheer exhilaration of
-              understanding what exactly is going on under the hood with a
-              simple console.log.
-            </p>
-
-            <p>
-              If you have questions for me or perhaps some advice, please don't
-              hesitate to contact me! I would love to hear from you!
+              If you have questions for me or perhaps some advice, please don't hesitate to contact me. I would love to hear from you!
             </p>
           </div>
         </Cell>
