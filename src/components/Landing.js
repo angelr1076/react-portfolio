@@ -80,24 +80,34 @@ class Landing extends Component {
               margin: "12%",
             }}
           >
-            <p>
-              I have always had an amateur interest in technology without ever digging 
-              deep enough to make it a career until recently. 
-              Early in my life, I went down a career path I thought I loved but eventually became disengaged from it. I love to solve problems;
-              coding gives me an outlet to use logic to come up with solutions that make people's lives more manageable.
-            </p>
-           
-            <p>
-              I decided to take a deep dive into development by enrolling in a
-              web intensive boot-camp in mid-2018. It is the best investment in myself that I have ever made. My passion has always been to create new products that are useful to others; tech is one of the best ways for me to accomplish this.
-            </p>
-            
-            <p>
-              I am always fascinated by the power that planning, collaborating and programming harnesses in development. I don't ever see myself losing the curiosity and excitement of writing my first several lines of code and the exhilaration of fixing an issue through debugging. 
+            <p style={{ width: "90%" }}>
+              I have always had an amateur interest in technology without ever
+              digging deep enough to make it a career until recently. Early in
+              my life, I went down a career path I thought I loved but
+              eventually became disengaged from it. I love to solve problems;
+              coding gives me an outlet to use logic to come up with solutions
+              that make people's lives more manageable.
             </p>
 
-            <p>
-              If you have questions for me or perhaps some advice, please don't hesitate to contact me. I would love to hear from you!
+            <p style={{ width: "90%" }}>
+              I decided to take a deep dive into development by enrolling in a
+              web intensive boot-camp in mid-2018. It is the best investment in
+              myself that I have ever made. My passion has always been to create
+              new products that are useful to others; tech is one of the best
+              ways for me to accomplish this.
+            </p>
+
+            <p style={{ width: "90%" }}>
+              I am always fascinated by the power that planning, collaborating
+              and programming harnesses in development. I don't ever see myself
+              losing the curiosity and excitement of writing my first several
+              lines of code and the exhilaration of fixing an issue through
+              debugging.
+            </p>
+
+            <p style={{ width: "90%" }}>
+              If you have questions for me or perhaps some advice, please don't
+              hesitate to contact me. I would love to hear from you!
             </p>
           </div>
         </Cell>
