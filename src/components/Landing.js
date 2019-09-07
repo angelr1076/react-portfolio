@@ -75,7 +75,7 @@ class Landing extends Component {
           <div
             className="landing-bio"
             style={{
-              textAlign: "center",
+              textAlign: "justify",
               width: "75%",
               margin: "12%",
             }}
