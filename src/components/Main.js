@@ -34,7 +34,7 @@ const Wrapper = styled.div`
   }
   .fade-enter.fade-enter-active {
     opacity: 1;
-    transition: opacity 300ms ease-in;
+    transition: opacity 500ms ease-in;
   }
   .fade-exit {
     opacity: 1;

@@ -4,5 +4,20 @@ body {
 }
 
 .header-color {
-  background: #36454f !important;
+  background: rgb(235, 230, 230) !important;
+}
+
+.mdl-navigation__link {
+  color: rgba(0, 0, 0, 0.54) !important;
+  font-size: 1.1rem !important;
+}
+
+.mdl-layout__drawer-button {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1026px) {
+  .mdl-layout__drawer-button {
+    display: block !important;
+  }
 }
