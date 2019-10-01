@@ -24,13 +24,28 @@ Landing Page .banner-text h1 {
 }
 
 .social-links i {
-  color: #59407f;
   font-size: 5rem;
   padding: 8px;
   -webkit-transition: color 500ms ease;
   -moz-transition: color 500ms ease;
   -o-transition: color 500ms ease;
   transition: color 500ms ease;
+}
+
+.fa-linkedin-square {
+  color: #0e76a8;
+}
+
+.fa-github-square {
+  color: #211f1f;
+}
+
+.fa-twitter-square {
+  color: #1da1f2;
+}
+
+.fa-envelope-square {
+  color: #323232;
 }
 
 .devicons {
