@@ -35,7 +35,7 @@ const Libraries = () => {
           </CardText>
           <CardText>
             Portfolio site built in React showcasing all projects written in
-            React, JavaScript, Rails and Sinatra.
+            JavaScript, Rails and Sinatra.
           </CardText>
           <CardActions border style={{ margin: "10px" }}>
             <Button colored>

@@ -97,9 +97,8 @@ const Ruby = () => {
             Doggie-Bloggie
           </CardText>
           <CardText>
-            Ruby on Rails blog app with full CRUD features. Styling is built
-            completely from scratch and uses no libraries for customization.
-            Utilizes full MVC capabilities of Rails.{" "}
+            Rails blog app with full CRUD features. Utilizes full MVC
+            capabilities of Rails.{" "}
             <p style={{ padding: "5px" }}>
               Username: guest, Password: guestpass
             </p>
@@ -197,8 +196,8 @@ const Ruby = () => {
             Coder-Bytes
           </CardText>
           <CardText>
-            CRUD site written in Ruby using the Sinatra framework that allows
-            users to setup user accounts, profiles, posts and comments.
+            CRUD site written in Ruby using Sinatra. Coder-Bytes allows users to
+            setup user accounts, profiles, posts and comments.
           </CardText>
           <CardText>Username: guest@gmail.com, Password: guestpass</CardText>
           <CardActions border>
