@@ -18,8 +18,9 @@ function Main({ location }) {
           <section className="route-section">
             <Switch location={location}>
               <Route exact path="/" component={LandingPage} />
-              <Route path="/mywork" component={Projects} />
               <Route path="/resume" component={Resume} />
+              <Route path="/mywork" component={Projects} />
+              
             </Switch>
           </section>
         </CSSTransition>

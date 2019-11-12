@@ -16,15 +16,15 @@ class App extends Component {
           >
             <Navigation>
               <Link to="/">About</Link>
-              <Link to="/resume">Resume</Link>
               <Link to="/mywork">My Work</Link>
+              <Link to="/resume">Resume</Link>
             </Navigation>
           </Header>
           <Drawer>
             <Navigation>
               <Link to="/">About</Link>
-              <Link to="/resume">Resume</Link>
               <Link to="/myWork">My Work</Link>
+              <Link to="/resume">Resume</Link>
             </Navigation>
           </Drawer>
           <Content>
