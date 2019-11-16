@@ -23,7 +23,7 @@ class App extends Component {
           <Drawer>
             <Navigation>
               <Link to="/">About</Link>
-              <Link to="/myWork">My Work</Link>
+              <Link to="/mywork">My Work</Link>
               <Link to="/resume">Resume</Link>
             </Navigation>
           </Drawer>

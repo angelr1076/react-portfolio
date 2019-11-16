@@ -8,7 +8,7 @@ class Landing extends Component {
       <Grid className="landing-grid">
         <Cell col={6} tablet={12}>
           <div className="banner-text">
-            <h1 style={{ textAlign: "center", fontWeight: "900" }}>
+            <h1 style={{ textAlign: "center", fontWeight: "500" }}>
               Angel Rodriguez
             </h1>
             <h3 style={{ textAlign: "center" }}>
