@@ -17,14 +17,26 @@ class App extends Component {
             <Navigation>
               <Link to="/">About</Link>
               <Link to="/mywork">My Work</Link>
-              <Link to="/resume">Resume</Link>
+              <a
+                href="https://resume.creddle.io/resume/w3izg6rjth"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Resume
+              </a>
             </Navigation>
           </Header>
           <Drawer>
             <Navigation>
               <Link to="/">About</Link>
               <Link to="/mywork">My Work</Link>
-              <Link to="/resume">Resume</Link>
+              <a
+                href="https://resume.creddle.io/resume/w3izg6rjth"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Resume
+              </a>
             </Navigation>
           </Drawer>
           <Content>

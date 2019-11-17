@@ -4,7 +4,6 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import styled from "styled-components";
 import LandingPage from "./Landing";
 import Projects from "./Projects";
-import Resume from "./Resume";
 
 function Main({ location }) {
   return (
@@ -18,9 +17,7 @@ function Main({ location }) {
           <section className="route-section">
             <Switch location={location}>
               <Route exact path="/" component={LandingPage} />
-              <Route path="/resume" component={Resume} />
               <Route path="/mywork" component={Projects} />
-              
             </Switch>
           </section>
         </CSSTransition>

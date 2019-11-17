@@ -5,11 +5,13 @@ const Resume = () => {
   return (
     <div>
       <div className="resume-template">
-        <img
-          src="https://res.cloudinary.com/angelrodriguez/image/upload/q_100/v1569972966/Creddle___Resume_Oct2019.png"
-          alt="resume"
-          style={{ width: "60%", paddingTop: "2rem" }}
-        />
+        <a
+          href="https://resume.creddle.io/resume/w3izg6rjth"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Resume
+        </a>
       </div>
     </div>
   );
