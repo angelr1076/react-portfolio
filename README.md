@@ -1,15 +1,4 @@
-This is a rebuild from a HUGO theme I used as my first portfolio site and rewritten in React. The site is hosted with Firebase and also uses react-mdl. 
-
-![Settings Window](./src/images/home.png)
-
-
-![Settings Window](./src/images/resume.png)
-
-
-![Settings Window](./src/images/portfolio.png)
-
-
-![Settings Window](./src/images/contact.png)
+Rebuild from a HUGO theme I used as my first portfolio site and rewritten in React. The site is hosted with Firebase and also uses react-mdl. 
 
 If you'd like to run the project locally, please clone it and follow the instructions below:
 
