@@ -57,8 +57,8 @@ class Landing extends Component {
           <div className="devicons">
             <i className="devicon-javascript-plain colored" />
             <i className="devicon-jquery-plain-wordmark colored" />
-            <i className="devicon-nodejs-plain colored" />
-            <i className="devicon-react-original-wordmark" />
+            {/* <i className="devicon-nodejs-plain colored" /> */}
+            {/* <i className="devicon-react-original-wordmark" /> */}
             <i className="devicon-ruby-plain-wordmark colored" />
             <i className="devicon-rails-plain-wordmark colored" />
             <i className="devicon-bootstrap-plain-wordmark colored" />
@@ -67,7 +67,7 @@ class Landing extends Component {
             <i className="devicon-github-plain-wordmark colored" />
             <i className="devicon-gitlab-plain-wordmark colored" />
             <i className="devicon-heroku-original-wordmark colored" />
-            <i className="devicon-amazonwebservices-original colored" />
+            {/* <i className="devicon-amazonwebservices-original colored" /> */}
           </div>
         </Cell>
 

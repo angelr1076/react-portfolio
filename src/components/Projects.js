@@ -27,7 +27,7 @@ class Projects extends Component {
   }
   render() {
     return (
-      <div className="category-tabs">
+      <div className="category-tabs" style={{ paddingTop: "40px" }}>
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
