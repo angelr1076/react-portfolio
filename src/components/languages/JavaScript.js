@@ -210,53 +210,6 @@ const JavaScript = () => {
           <CardMenu style={{ color: "#fff" }} />
         </Card>
       </Cell>
-      <Cell col={6}>
-        <Card
-          shadow={5}
-          style={{
-            height: "400px",
-            margin: "auto",
-            marginBottom: "20px",
-          }}
-        >
-          <CardTitle
-            style={{
-              color: "black",
-              minHeight: "176px",
-              background:
-                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1573437506/Screen_Shot_2019-11-10_at_6.36.48_PM.png) center / cover",
-            }}
-          />
-          <CardText style={{ color: "black", fontSize: "20px" }}>
-            Adopt Me!
-          </CardText>
-          <CardText>
-            Adopt Me! is a pet finder program using the Petfinder's API. Users
-            can find pets through a dropdown menu and search by zip code.
-          </CardText>
-          <CardActions border>
-            <Button colored>
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/angelr1076/adopt-me-app_js/tree/master/js"
-              >
-                Github
-              </a>
-            </Button>
-            <Button colored>
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://adopt-me-today.firebaseapp.com/"
-              >
-                Live Demo
-              </a>
-            </Button>
-          </CardActions>
-          <CardMenu style={{ color: "#fff" }} />
-        </Card>
-      </Cell>
       {/* Project 2 */}
       <Cell col={6}>
         <Card
