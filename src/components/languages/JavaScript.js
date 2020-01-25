@@ -25,6 +25,99 @@ const JavaScript = () => {
         >
           <CardTitle
             style={{
+              color: "yellow",
+              minHeight: "176px",
+              background:
+                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1557097065/Portfolio.png) center / cover",
+            }}
+          />
+          <CardText style={{ color: "black", fontSize: "20px" }}>
+            Portfolio Site
+          </CardText>
+          <CardText>
+            Portfolio site built with React showcasing my projects.
+          </CardText>
+          <CardActions border style={{ margin: "10px" }}>
+            <Button colored>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/angelr1076/react-portfolio"
+              >
+                Github
+              </a>
+            </Button>
+            <Button colored>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://angelrod.dev"
+              >
+                Live Demo
+              </a>
+            </Button>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }} />
+        </Card>
+      </Cell>
+      <Cell col={6}>
+        <Card
+          shadow={5}
+          style={{
+            height: "400px",
+            margin: "auto",
+            marginBottom: "20px",
+          }}
+        >
+          <CardTitle
+            style={{
+              color: "yellow",
+              minHeight: "176px",
+              background:
+                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1552339527/rambo.png) center / cover",
+            }}
+          />
+          <CardText style={{ color: "black", fontSize: "20px" }}>
+            Lock-n-Load
+          </CardText>
+          <CardText>
+            Strategy app built with Vue.js that uses Vue directives and bindings
+            for functionality.
+          </CardText>
+          <CardActions border style={{ margin: "10px" }}>
+            <Button colored>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/angelr1076/vue-js_lock-n-load"
+              >
+                Github
+              </a>
+            </Button>
+            <Button colored>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://natural-jellyfish.surge.sh/"
+              >
+                Live Demo
+              </a>
+            </Button>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }} />
+        </Card>
+        </Cell>
+        <Cell col={6}>
+        <Card
+          shadow={5}
+          style={{
+            height: "400px",
+            margin: "auto",
+            marginBottom: "20px",
+          }}
+        >
+          <CardTitle
+            style={{
               color: "black",
               minHeight: "176px",
               background:
@@ -363,6 +456,59 @@ const JavaScript = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://angelr1076.github.io/verses-fetch/#"
+              >
+                Live Demo
+              </a>
+            </Button>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }} />
+        </Card>
+      </Cell>{/* Project 7 */}
+      <Cell col={6}>
+        <Card
+          shadow={5}
+          style={{
+            height: "400px",
+            margin: "auto",
+            marginBottom: "20px",
+          }}
+        >
+          <CardTitle
+            style={{
+              color: "yellow",
+              minHeight: "176px",
+              background:
+                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1579924308/Screen_Shot_2020-01-24_at_10.51.33_PM.png) center / cover",
+            }}
+          />
+          <CardText
+            style={{
+              color: "black",
+              fontSize: "20px",
+              padding: "5px",
+            }}
+          >
+            Node Weather
+          </CardText>
+          <CardText>
+            Weather app built with Node.js.
+          </CardText>
+          <CardText />
+          <CardActions border>
+            <Button colored>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/angelr1076/node-js-weather"
+              >
+                Github
+              </a>
+            </Button>
+            <Button colored>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://node-weather-angel.herokuapp.com/"
               >
                 Live Demo
               </a>
