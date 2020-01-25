@@ -45,7 +45,7 @@ class Landing extends Component {
             </a>
             {/* Email */}
             <a
-              href="mailto:angelr1076@gmail.com"
+              href="mailto:angel107rodriguez@gmail.com"
               rel="noopener noreferrer"
               target="_blank"
             >
