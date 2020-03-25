@@ -74,34 +74,38 @@ class Landing extends Component {
             style={{
               textAlign: "justify",
               width: "75%",
-              margin: "12%",
+              margin: "5%",
             }}
           >
             <p>
-              I have always had an amateur interest in technology. Early in
-              life, I went down a career path I thought I loved but eventually
-              became disengaged from it.
+              Growing up, I was always curious about how and why things worked the way 
+              that they did. My parents would laugh at how I would take all of my toys or devices
+              apart and, sometimes, manage to put them back together. In doing this, I didn't 
+              always figure it out, but it helped me become a better problem-solver
+              when it came to approaching problems and breaking things down into smaller pieces.
             </p>
 
             <p>
-              I decided to take a deep dive into development by enrolling in a
-              web intensive boot-camp in mid-2018, which turned out to be the
-              best investment in myself that I have ever made. My passion has
-              always been to create new products that are useful to others; tech
-              is one of the best ways for me to accomplish this by solving
-              people’s day-to-day problems.
+              In mid-2018, after teaching myself HTML, CSS and some JavaScript, 
+              I decided to take a deeper dive into development by enrolling in a
+              web intensive boot-camp. This turned out to be the
+              best investment in myself that I have ever made. 
             </p>
 
             <p>
-              I am always fascinated by the power that planning, collaborating
-              and programming harnesses in development. I don't ever see myself
-              losing the curiosity and excitement of writing my first several
-              lines of code.
+              My passion has always been to create new products that are useful to 
+              others; programming, in all of its facets, is one of the best ways for me 
+              to accomplish this by solving people’s day-to-day problems and making their jobs
+              a bit simpler.
             </p>
 
             <p>
-              If you have questions for me or perhaps some advice, please don't
-              hesitate to contact me. I would love to hear from you!
+              It has been said that you should have hobbies outside of work. I do agree with 
+              that, but I also agree that if you enjoy work enough, it's almost a hobby in itself.
+              I love to cook, spend time with my family and my pets, and I also love to learn in
+              my spare time. I'm currently taking Harvard's CS50 course, learning C, sharpening my
+              JavaScript skills by writing more algorithms and deepening my understanding of the FileMaker
+              platform. 
             </p>
           </div>
         </Cell>
