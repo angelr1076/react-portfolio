@@ -74,7 +74,7 @@ class Landing extends Component {
             style={{
               textAlign: "justify",
               width: "75%",
-              margin: "5%",
+              margin: "12%",
             }}
           >
             <p>
