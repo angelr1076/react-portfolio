@@ -169,7 +169,7 @@ const JavaScript = () => {
               color: "black",
               minHeight: "176px",
               background:
-                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1589679931/gamescreen.png) center / cover",
+                "url(https://res.cloudinary.com/angelrodriguez/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1590237836/MapAttackRemasteredShot.png) center / cover",
             }}
           />
           <CardText style={{ color: "black", fontSize: "20px" }}>
