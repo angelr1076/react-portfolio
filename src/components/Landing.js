@@ -35,14 +35,6 @@ class Landing extends Component {
               <i className="fa fa-github-square" aria-hidden="true" />
             </a>
 
-            {/* Twitter */}
-            <a
-              href="https://twitter.com/AngelRoddy7"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <i className="fa fa-twitter-square" aria-hidden="true" />
-            </a>
             {/* Email */}
             <a
               href="mailto:angel107rodriguez@gmail.com"
@@ -87,7 +79,7 @@ class Landing extends Component {
             </p>
 
             <p>
-              In mid-2018, after teaching myself HTML, CSS, and some JavaScript,
+              In mid-2018, after learning HTML, CSS, and some JavaScript,
               I decided to take a deeper dive into web development by enrolling
               in a web intensive boot-camp. This turned out to be the best
               investment in myself that I have ever made.
@@ -98,14 +90,6 @@ class Landing extends Component {
               to others; programming, in all of its facets, allows me to
               accomplish this by solving people’s day-to-day problems and making
               their jobs easier.
-            </p>
-
-            <p>
-              I love to cook, create recipes and spend time with my family and
-              my pets. I love to learn whether it’s at work or in my spare time.
-              I'm currently taking Harvard's CS50 course on edX, learning C and
-              sharpening my JavaScript skills by crafting algorithms all while
-              enjoying every minute of learning.
             </p>
           </div>
         </Cell>

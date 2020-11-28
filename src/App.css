@@ -16,6 +16,12 @@ body {
   display: none !important;
 }
 
+@media only screen and (min-width: 600px) {
+  .mdl-layout__drawer-button {
+    display: block !important;
+  }
+}
+
 @media only screen and (max-width: 1026px) {
   .mdl-layout__drawer-button {
     display: block !important;

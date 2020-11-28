@@ -303,56 +303,7 @@ const JavaScript = () => {
           <CardMenu style={{ color: "#fff" }} />
         </Card>
       </Cell>
-      {/* Project 2 */}
-      <Cell col={6}>
-        <Card
-          shadow={5}
-          style={{
-            height: "400px",
-            margin: "auto",
-            marginBottom: "20px",
-          }}
-        >
-          <CardTitle
-            style={{
-              color: "yellow",
-              minHeight: "176px",
-              background:
-                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1543806642/Screen_Shot_2018-12-02_at_10.09.05_PM.png) center / cover",
-            }}
-          />
-          <CardText style={{ color: "black", fontSize: "20px" }}>
-            Word-Spin
-          </CardText>
-          <CardText>
-            Word-Spin generates random JavaScript terminology. Functions add a
-            hint for the user, number of letters that are in the word, the
-            number of guesses remaining, letters already used and how many
-            rounds the user won.
-          </CardText>
-          <CardActions border>
-            <Button colored>
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/angelr1076/word-spin"
-              >
-                Github
-              </a>
-            </Button>
-            <Button colored>
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://angelr1076.github.io/word-spin/"
-              >
-                Live Demo
-              </a>
-            </Button>
-          </CardActions>
-          <CardMenu style={{ color: "#fff" }} />
-        </Card>
-      </Cell>
+      
       {/* Project 6 */}
       <Cell col={6}>
         <Card
@@ -401,61 +352,6 @@ const JavaScript = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://brb-arcade.herokuapp.com/"
-              >
-                Live Demo
-              </a>
-            </Button>
-          </CardActions>
-          <CardMenu style={{ color: "#fff" }} />
-        </Card>
-      </Cell>
-      {/* Project 7 */}
-      <Cell col={6}>
-        <Card
-          shadow={5}
-          style={{
-            height: "400px",
-            margin: "auto",
-            marginBottom: "20px",
-          }}
-        >
-          <CardTitle
-            style={{
-              color: "yellow",
-              minHeight: "176px",
-              background:
-                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1542052847/Screen_Shot_2018-11-12_at_2.56.04_PM.png) center / cover",
-            }}
-          />
-          <CardText
-            style={{
-              color: "black",
-              fontSize: "20px",
-              padding: "5px",
-            }}
-          >
-            Fetch Verses
-          </CardText>
-          <CardText>
-            Bible verse app utilzing the Mashape API converted from jQuery to
-            Vanilla JavaScript. Uses Fetch and ES6.
-          </CardText>
-          <CardText />
-          <CardActions border>
-            <Button colored>
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/angelr1076/verses-fetch"
-              >
-                Github
-              </a>
-            </Button>
-            <Button colored>
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://angelr1076.github.io/verses-fetch/#"
               >
                 Live Demo
               </a>
