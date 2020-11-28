@@ -5,14 +5,14 @@ import "./Landing.css";
 class Landing extends Component {
   render() {
     return (
-      <Grid className="landing-grid">
+      <Grid className="landing-grid" style={{ marginTop: "80px" }}>
         <Cell col={6} tablet={12}>
           <div className="banner-text">
             <h1 style={{ textAlign: "center", fontWeight: "600" }}>
               Angel Rodriguez
             </h1>
             <h3 style={{ textAlign: "center", fontWeight: "500" }}>
-              Software Developer/Consultant
+              Web Applications Developer
             </h3>
             <h4 style={{ textAlign: "center" }}>Philadelphia, PA</h4>
           </div>
