@@ -65,7 +65,6 @@ const Python = () => {
                     <CardMenu style={{ color: "#fff" }} />
                 </Card>
             </Cell>
-            {/* Project 8 */}
             <Cell col={6}>
                 <Card
                     shadow={5}
@@ -80,7 +79,7 @@ const Python = () => {
                             color: "black",
                             minHeight: "176px",
                             background:
-                                "url(https://res.cloudinary.com/angelrodriguez/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1606569957/wiki_homepage.png) center / cover",
+                                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1610411667/cs50_commerce_project/bidscreen.png) center / cover",
                         }}
                     />
                     <CardText
@@ -90,17 +89,17 @@ const Python = () => {
                             paddingBottom: "8px",
                         }}
                     >
-                        Wiki
+                        Bidstrocity
           </CardText>
                     <CardText>
-                        <p>Project from CS50’s Web Programming with Python and JavaScript. One Markdown file represents each encyclopedia entry. Markdown files are then converted to HTML with the markdown2 library.{" "}</p>
+                        <p>Ecommerce site assignment from CS50’s Web Programming with Python and JavaScript. User's can create accounts, create listings, bid on listings and save items to their watchlist.</p>
                     </CardText>
                     <CardActions border>
                         <Button colored>
                             <a
                                 rel="noopener noreferrer"
                                 target="_blank"
-                                href="https://github.com/angelr1076/wiki"
+                                href="https://github.com/angelr1076/commerce"
                             >
                                 Github
               </a>
@@ -109,7 +108,7 @@ const Python = () => {
                             <a
                                 rel="noopener noreferrer"
                                 target="_blank"
-                                href="https://angel107rodriguez.eu.pythonanywhere.com"
+                                href="https://commerce-django.herokuapp.com/"
                             >
                                 Live Demo
               </a>
