@@ -12,7 +12,7 @@ class Landing extends Component {
               Angel Rodriguez
             </h1>
             <h3 style={{ textAlign: "center", fontWeight: "500" }}>
-              Web Applications Developer
+              Web Application Developer
             </h3>
             <h4 style={{ textAlign: "center" }}>Philadelphia, PA</h4>
           </div>
