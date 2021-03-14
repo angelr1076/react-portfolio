@@ -117,6 +117,110 @@ const Python = () => {
                     <CardMenu style={{ color: "#fff" }} />
                 </Card>
             </Cell>
+            <Cell col={6}>
+                <Card
+                    shadow={5}
+                    style={{
+                        height: "400px",
+                        margin: "auto",
+                        marginBottom: "20px",
+                    }}
+                >
+                    <CardTitle
+                        style={{
+                            color: "black",
+                            minHeight: "176px",
+                            background:
+                                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1615755432/mail.png) center / cover",
+                        }}
+                    />
+                    <CardText
+                        style={{
+                            color: "black",
+                            fontSize: "20px",
+                            paddingBottom: "8px",
+                        }}
+                    >
+                        CS50 Mail
+          </CardText>
+                    <CardText>
+                        <p>Mail class assignment from CS50’s Web Programming course. Uses JavaScript to asynchronously let the server update without requiring a reload of the entire page. Built with Django and JavaScript.</p>
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>
+                            <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="https://github.com/angelr1076/CS50-Mail"
+                            >
+                                Github
+              </a>
+                        </Button>
+                        <Button colored>
+                            <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="https://cs50mail.herokuapp.com/"
+                            >
+                                Live Demo
+              </a>
+                        </Button>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }} />
+                </Card>
+            </Cell>
+                        <Cell col={6}>
+                <Card
+                    shadow={5}
+                    style={{
+                        height: "400px",
+                        margin: "auto",
+                        marginBottom: "20px",
+                    }}
+                >
+                    <CardTitle
+                        style={{
+                            color: "black",
+                            minHeight: "176px",
+                            background:
+                                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1615755432/network.png) center / cover",
+                        }}
+                    />
+                    <CardText
+                        style={{
+                            color: "black",
+                            fontSize: "20px",
+                            paddingBottom: "8px",
+                        }}
+                    >
+                        CS50 Network
+          </CardText>
+                    <CardText>
+                        <p>Network class assignment from CS50’s Web Programming course. Designed a Twitter-like social network website for making posts and following users using Python, JavaScript, HTML, and CSS.</p>
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>
+                            <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="https://github.com/angelr1076/CS50-Network"
+                            >
+                                Github
+              </a>
+                        </Button>
+                        <Button colored>
+                            <a
+                                rel="noopener noreferrer"
+                                target="_blank"
+                                href="https://cs50djangonetwork.herokuapp.com/"
+                            >
+                                Live Demo
+              </a>
+                        </Button>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }} />
+                </Card>
+            </Cell>
         </div>
     );
 };

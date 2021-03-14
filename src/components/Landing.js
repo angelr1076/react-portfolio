@@ -49,9 +49,11 @@ class Landing extends Component {
           <div className="devicons">
             <i className="devicon-javascript-plain colored" />
             <i className="devicon-jquery-plain-wordmark colored" />
-            <i className="devicon-ruby-plain-wordmark colored" />
+            <i className="devicon-django-plain-wordmark colored"/>
             <i className="devicon-rails-plain-wordmark colored" />
             <i className="devicon-bootstrap-plain-wordmark colored" />
+            <i className="devicon-postgresql-plain-wordmark colored" />
+            <i className="devicon-visualstudio-plain colored" />
             <i className="devicon-html5-plain-wordmark colored" />
             <i className="devicon-css3-plain-wordmark colored" />
             <i className="devicon-github-plain-wordmark colored" />
@@ -88,8 +90,8 @@ class Landing extends Component {
             <p>
               My passion has always been to create new products that are useful
               to others; programming, in all of its facets, allows me to
-              accomplish this by solving people’s day-to-day problems and making
-              their jobs easier.
+              accomplish this by solving people’s day-to-day problems and by also making
+              their jobs less complicated.
             </p>
           </div>
         </Cell>
