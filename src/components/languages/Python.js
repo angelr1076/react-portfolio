@@ -131,7 +131,7 @@ const Python = () => {
                             color: "black",
                             minHeight: "176px",
                             background:
-                                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1615755432/mail.png) center / cover",
+                                "url(https://res.cloudinary.com/angelrodriguez/image/upload/v1624728537/cct_screenshot_for_portfolio.png) center / cover",
                         }}
                     />
                     <CardText
@@ -141,17 +141,17 @@ const Python = () => {
                             paddingBottom: "8px",
                         }}
                     >
-                        CS50 Mail
+                        CS50 Case Crime Trace
           </CardText>
                     <CardText>
-                        <p>Mail class assignment from CS50’s Web Programming course. Uses JavaScript to asynchronously let the server update without requiring a reload of the entire page. Built with Django and JavaScript.</p>
+                        <p>CCT utilizes Django on the back-end and HTML, CSS, and JavaScript on the front-end. The app allows users to report crimes and suspects in any given area of the U.S. The final project for CS50 Web.</p>
                     </CardText>
                     <CardActions border>
                         <Button colored>
                             <a
                                 rel="noopener noreferrer"
                                 target="_blank"
-                                href="https://github.com/angelr1076/CS50-Mail"
+                                href="https://github.com/angelr1076/django_cct"
                             >
                                 Github
               </a>
@@ -160,7 +160,7 @@ const Python = () => {
                             <a
                                 rel="noopener noreferrer"
                                 target="_blank"
-                                href="https://cs50mail.herokuapp.com/"
+                                href="https://casecrimetrace-django.herokuapp.com/"
                             >
                                 Live Demo
               </a>

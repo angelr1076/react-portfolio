@@ -12,18 +12,8 @@ body {
   font-size: 1.1rem !important;
 }
 
-.mdl-layout__drawer-button {
-  display: none !important;
-}
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1025px) {
   .mdl-layout__drawer-button {
-    display: block !important;
-  }
-}
-
-@media only screen and (max-width: 1026px) {
-  .mdl-layout__drawer-button {
-    display: block !important;
+    display: none !important;
   }
 }
