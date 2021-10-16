@@ -6,13 +6,13 @@ import { BrowserRouter } from 'react-router-dom';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 
-
 ReactDOM.render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-, document.getElementById('root'));
-serviceWorker.unregister();
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  // If you want your app to work offline and load faster, you can change
+  // unregister() to register() below. Note this comes with some pitfalls.
+  // Learn more about service workers: http://bit.ly/CRA-PWA
+  document.getElementById('root'),
+);
+serviceWorker.register();
