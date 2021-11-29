@@ -12,7 +12,7 @@ class Landing extends Component {
               Angel Rodriguez
             </h1>
             <h3 style={{ textAlign: "center", fontWeight: "500" }}>
-              Web Application Developer
+              Web/Application Developer
             </h3>
             <h4 style={{ textAlign: "center" }}>Philadelphia, PA</h4>
           </div>
@@ -37,7 +37,7 @@ class Landing extends Component {
 
             {/* Email */}
             <a
-              href="mailto:angel107rodriguez@gmail.com"
+              href="mailto:arodriguez54@mail.walnuthillcollege.edu"
               rel="noopener noreferrer"
               target="_blank"
             >
